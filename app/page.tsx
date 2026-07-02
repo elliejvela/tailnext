@@ -37,14 +37,14 @@ export default function Page() {
     <>
       <Hero {...heroHome} />
       <Content {...contentHomeOne} />
-      {/* <Team {...teamHome} /> aka speakers*/}
-      {/* <FAQs2 {...faqs2Home} aka schedule /> */}
       <Features {...featuresHome} />
       <Pricing {...pricingHome} />
-      {/* <Contact {...contactHome} /> */}
       <Testimonials {...testimonialsHome} />
 
-      {/* <Content {...contentHomeTwo} />
+      {/* <Team {...teamHome} /> aka speakers
+      <FAQs2 {...faqs2Home} aka schedule />
+      <Contact {...contactHome} />
+      <Content {...contentHomeTwo} />
       <Steps {...stepsHome} />
       <CallToAction2 {...callToAction2Home} /> */}
     </>

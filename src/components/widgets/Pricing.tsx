@@ -11,7 +11,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
     {header && <Headline header={header} containerClass="max-w-5xl" titleClass="text-2xl sm:text-3xl text-[#1F0024]" subtitleClass='text-[#1F0024]/80' />}
     <div className="flex items-stretch justify-center">
-      <div className="grid grid-cols-3 gap-3 dark:text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+      <div className="grid grid-cols-3 gap-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
         {prices &&
           prices.map(
             ({ image, title, subtitle, items, callToAction, hasRibbon = false, ribbonTitle }, index) => (
@@ -32,7 +32,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                       {image && (
                         <div className="relative m-auto max-w-sm pb-4">
                           <Image
-                            className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
+                            className="mx-auto w-full rounded-lg shadow-lg bg-gray-400"
                             src={image.src}
                             width={828}
                             height={828}
@@ -49,7 +49,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                         </h3>
                       )}
                       {subtitle && (
-                        <p className="font-light sm:text-lg text-gray-600 dark:text-slate-400">{subtitle}</p>
+                        <p className="font-light sm:text-lg text-gray-600">{subtitle}</p>
                       )}
                       {items && (
                         <div className="my-8 md:my-10 space-y-2 text-left">
@@ -60,7 +60,7 @@ const Pricing = ({ header, prices, id, hasBackground = false }: PricingProps) =>
                             defaultIcon={IconChevronRight}
                             containerClass="gap-2 md:gap-y-2"
                             panelClass="flex items-start"
-                            iconClass="w-4 h-4 mt-1.5 mr-3 rtl:mr-0 rtl:ml-3 flex items-center justify-center rounded-full border-2 border-[#693371] bg-[#693371] text-white dark:text-slate-200"
+                            iconClass="w-4 h-4 mt-1.5 mr-3 rtl:mr-0 rtl:ml-3 flex items-center justify-center rounded-full border-2 border-[#693371] bg-[#693371] text-white"
                           />
                         </div>
                       )}
