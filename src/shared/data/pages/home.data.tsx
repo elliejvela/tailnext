@@ -50,7 +50,7 @@ export const heroHome: HeroProps = {
 
   title: (
     <>
-      AWS-MLU Fall AI/ML Teaching & Research Symposium
+      AWS-MLU Fall AI Teaching & Research Symposium
     </>
   ),
   subtitle: (
@@ -74,7 +74,7 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'Two Days of Innovation, Collaboration, and Excellence in AI/ML Education',
+    title: 'Two Days of Innovation, Collaboration, and Excellence in AI Education',
     subtitle: '',
   },
   content:
@@ -174,7 +174,7 @@ export const pricingHome: PricingProps = {
           description: 'interested in careers at Amazon and AWS',
         },
         {
-          description: 'engaged in undergraduate or graduate research involving AI/ML',
+          description: 'engaged in undergraduate or graduate research involving AI',
         },
         {
           description: 'seeking AWS hands-on cloud experience',
@@ -199,7 +199,7 @@ export const pricingHome: PricingProps = {
           description: 'AWS-MLU Educators Consortium and Transformation Alliance Members',
         },
         {
-          description: 'Educators teaching AI/ML courses',
+          description: 'Educators teaching AI courses',
         },
         {
           description: 'Academic leaders focused on technology innovation',
@@ -227,7 +227,7 @@ export const pricingHome: PricingProps = {
           description: 'team members',
         },
         {
-          description: 'AI/ML practitioners seeking academic collaborations',
+          description: 'AI practitioners seeking academic collaborations',
         },
         {
           description: 'technology leaders committed to inclusive innovation',
@@ -326,7 +326,7 @@ export const testimonialsHome: TestimonialsProps = {
   header: {
     title: 'About the AWS-MLU Collaboration',
     subtitle:
-      'This symposium celebrates the ongoing collaboration between Amazon’s Machine Learning University and institutions of higher education, including HBCUs, community colleges, and universities nationwide, fostering innovation, research excellence, and creating pathways for the next generation of AI/ML professionals.',
+      'This symposium celebrates the ongoing collaboration between Amazon’s Machine Learning University and institutions of higher education, including HBCUs, community colleges, and universities nationwide, fostering innovation, research excellence, and creating pathways for the next generation of AI professionals.',
   },
   testimonials: [
   ],
