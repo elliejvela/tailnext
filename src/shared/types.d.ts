@@ -354,6 +354,7 @@ type FooterProps = {
 };
 
 type HeaderProps = {
+  image?: Image;
   links?: Array<MenuLink>;
   actions?: Array<CallToActionType>;
   // actions?: Array<ActionLink>;

@@ -7,6 +7,7 @@ import {
   IconRss,
 } from '@tabler/icons-react';
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
+import logoImg from "~/assets/images/MLU-full-logo-dark.png"
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -23,59 +24,34 @@ export const announcementData: AnnouncementProps = {
 
 // Header data
 export const headerData: HeaderProps = {
+  image: {
+    src: logoImg,
+    alt: 'MLU Logo',
+  },
   links: [
     {
-      label: 'Pages',
+      label: 'Registration',
       icon: IconChevronDown,
       links: [
         {
-          label: 'Services',
+          label: 'Register for the Symposium',
           href: '/services',
         },
         {
-          label: 'Pricing',
+          label: 'Submit Student Abstract',
           href: '/pricing',
         },
         {
-          label: 'About us',
+          label: 'Submit Faculty Abstract',
           href: '/about',
-        },
-        {
-          label: 'Contact us',
-          href: '/contact',
-        },
-        {
-          label: 'FAQs',
-          href: '/faqs',
-        },
-        {
-          label: 'Terms & Conditions',
-          href: '/terms',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
         },
       ],
     },
-    {
-      label: 'Blog',
-      href: '/blog',
-    },
-    {
-      label: 'Contact',
-      href: '/contact',
-    },
   ],
   actions: [
-    {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
-    },
   ],
   isSticky: true,
-  showToggleTheme: true,
+  showToggleTheme: false,
   showRssFeed: false,
   position: 'right',
 };
