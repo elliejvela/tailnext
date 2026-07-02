@@ -33,7 +33,7 @@ export default function RootLayout({ children }: LayoutProps) {
       </head>
       <body className="tracking-tight antialiased text-gray-900">
         <Providers>
-          <Header />
+          {/* <Header /> */}
           <main>{children}</main>
           {/* <Footer2 /> */}
         </Providers>
