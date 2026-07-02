@@ -1,18 +1,17 @@
 import Image from "next/image";
-import logoImg from "~/assets/images/MLU-full-logo-dark.png"
+import logoImg from "~/assets/images/MLU-full-logo-dark.svg"
+const blurImgUrl = "~/assets/images/MLU-full-logo-dark.png"
 
 const Logo = () => (
-  // <span className="ml-2 self-center whitespace-nowrap text-2xl font-bold text-gray-90 md:text-xl">
-  //   TailNext
-  // </span>
 <Image
-    className="mx-auto w-full bg-transparent"
+    className="mx-auto w-1/2 bg-white"
     src={logoImg}
-    width={828}
-    height={828}
+    width={800}
+    height={800}
     alt={'MLU logo'}
-    sizes="(max-width: 768px) 100vw, 432px"
+    sizes="(max-width: 800px) 100vw, 432px"
     placeholder="blur"
+    blurDataURL={blurImgUrl}
     quality={50}
   />
 );

@@ -5,6 +5,10 @@ import WidgetWrapper from '../common/WidgetWrapper';
 import CTA from '../common/CTA';
 import ItemTestimonial from '../common/ItemTestimonial';
 
+//TODO: Refactor
+import Image from 'next/image';
+import awsBrandImg from '~/assets/images/aws-logo.png'
+
 const Testimonials = ({
   header,
   testimonials,
@@ -16,6 +20,18 @@ const Testimonials = ({
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
     {header && <Headline header={header} titleClass="text-2xl sm:text-3xl text-[#1F0024]" />}
     <div className="flex items-stretch justify-center">
+      <div className="w-full max-w-xs bg-[#1F0024] p-10 rounded-xl">
+      <Image
+        className="mx-auto w-full"
+        src={awsBrandImg}
+        width={100}
+        height={100}
+        alt={'AWS logo'}
+        sizes="(max-width: 768px) 100vw, 432px"
+        placeholder="blur"
+        quality={50}
+      />
+    </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {testimonials.map(
           ({ name, job, testimonial, image, href }, index) =>

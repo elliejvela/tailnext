@@ -35,15 +35,15 @@ export const headerData: HeaderProps = {
       links: [
         {
           label: 'Register for the Symposium',
-          href: '/services',
+          href: 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV',
         },
         {
           label: 'Submit Student Abstract',
-          href: '/pricing',
+          href: 'https://docs.google.com/forms/d/e/1FAIpQLScjJLiLOOeZRzTergLG4eeJ9AHvBkDNMCrVhhjwuuaGmk65Lg/viewform?usp=dialog',
         },
         {
           label: 'Submit Faculty Abstract',
-          href: '/about',
+          href: 'https://docs.google.com/forms/d/e/1FAIpQLSd_pGgWwf-RfOnFc00heCPF2Y5BWJjriS1UiOgo-9Giczys-A/viewform?usp=dialog',
         },
       ],
     },
