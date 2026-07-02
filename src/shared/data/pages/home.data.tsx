@@ -183,7 +183,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Submit Student Abstract',
-        href: '/',
+        href: 'https://docs.google.com/forms/d/e/1FAIpQLScjJLiLOOeZRzTergLG4eeJ9AHvBkDNMCrVhhjwuuaGmk65Lg/viewform?usp=dialog',
       },
       hasRibbon: false,
     },
@@ -210,8 +210,8 @@ export const pricingHome: PricingProps = {
       ],
       callToAction: {
         targetBlank: true,
-        text: 'Submit Facilty Abstract',
-        href: '/',
+        text: 'Submit Faculty Abstract',
+        href: 'https://docs.google.com/forms/d/e/1FAIpQLSd_pGgWwf-RfOnFc00heCPF2Y5BWJjriS1UiOgo-9Giczys-A/viewform?usp=dialog',
       },
       hasRibbon: false,
     },
@@ -239,7 +239,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Register Now',
-        href: '/',
+        href: 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV',
       },
       hasRibbon: false,
     },
