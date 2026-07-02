@@ -36,17 +36,17 @@ export default function Page() {
   return (
     <>
       <Hero {...heroHome} />
-      <SocialProof {...socialProofHome} />
-      <Features {...featuresHome} />
       <Content {...contentHomeOne} />
-      <Content {...contentHomeTwo} />
-      <Steps {...stepsHome} />
-      <Testimonials {...testimonialsHome} />
-      <FAQs2 {...faqs2Home} />
+      {/* <Team {...teamHome} /> aka speakers*/}
+      {/* <FAQs2 {...faqs2Home} aka schedule /> */}
+      <Features {...featuresHome} />
       <Pricing {...pricingHome} />
-      <Team {...teamHome} />
-      <Contact {...contactHome} />
-      <CallToAction2 {...callToAction2Home} />
+      {/* <Contact {...contactHome} /> */}
+      <Testimonials {...testimonialsHome} />
+
+      {/* <Content {...contentHomeTwo} />
+      <Steps {...stepsHome} />
+      <CallToAction2 {...callToAction2Home} /> */}
     </>
   );
 }
