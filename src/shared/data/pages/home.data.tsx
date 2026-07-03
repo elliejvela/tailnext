@@ -183,7 +183,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Submit Student Abstract',
-        href: 'https://docs.google.com/forms/d/e/1FAIpQLScjJLiLOOeZRzTergLG4eeJ9AHvBkDNMCrVhhjwuuaGmk65Lg/viewform?usp=dialog',
+        href: 'https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl',
       },
       hasRibbon: false,
     },
@@ -211,7 +211,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Submit Faculty Abstract',
-        href: 'https://docs.google.com/forms/d/e/1FAIpQLSd_pGgWwf-RfOnFc00heCPF2Y5BWJjriS1UiOgo-9Giczys-A/viewform?usp=dialog',
+        href: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9UODQwN1gzRzEzTU9TWFFZWkNENDNTNDBDNC4u',
       },
       hasRibbon: false,
     },
