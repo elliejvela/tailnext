@@ -205,7 +205,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Submit a Faculty Abstract',
-        href: facultyAbstractSubmissionLink,
+        href: '/faculty',
       },
       hasRibbon: false,
     },

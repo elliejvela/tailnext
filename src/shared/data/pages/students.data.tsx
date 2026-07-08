@@ -1,14 +1,4 @@
 import {
-  IconArrowsRightLeft,
-  IconBrandTailwind,
-  IconBulb,
-  IconChevronsRight,
-  IconComponents,
-  IconListCheck,
-  IconRocket,
-} from '@tabler/icons-react';
-
-import {
   ContentVerboseProps,
   HeroProps,
   keyInfoProps,

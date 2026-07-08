@@ -47,7 +47,7 @@ export const headerData: HeaderProps = {
         },
         {
           label: 'Submit a Faculty Abstract',
-          href: facultyAbstractSubmissionLink,
+          href: '/faculty',
         },
       ],
     },

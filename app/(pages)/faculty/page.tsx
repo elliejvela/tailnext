@@ -5,12 +5,13 @@ import Hero from '~/components/widgets/Hero';
 import WidgetWrapper from '~/components/common/WidgetWrapper';
 
 import {
+  content2FacultyAbstracts,
   content2StudentAbstracts,
   content3StudentAbstracts,
-  contentStudentAbstracts,
+  contentFacultyAbstracts,
   heroStudentAbstracts,
   keyInfoStudentAbstracts
-} from '~/shared/data/pages/students.data';
+} from '~/shared/data/pages/faculty.data';
 import { keyInfoProps } from '~/shared/types';
 
 export const metadata: Metadata = {
@@ -37,7 +38,8 @@ const Page = () => {
           }</div>}
           {link && <a className='mb-4 lg:mb-8 text-2xl text-[#1F0024]/80 underline' href={link.url}>{link.text}</a>}
       </WidgetWrapper>
-      <ContentVerbose {...contentStudentAbstracts} />
+      <ContentVerbose {...contentFacultyAbstracts}/>
+      <ContentVerbose {...content2FacultyAbstracts}/>
       <ContentVerbose {...content2StudentAbstracts}/>
       <ContentVerbose {...content3StudentAbstracts}/>
     </>
