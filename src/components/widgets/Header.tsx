@@ -64,14 +64,14 @@ const Header = () => {
     >
       <div className="mx-auto w-full max-w-7xl md:flex md:justify-between md:py-3.5 md:px-4">
         <div
-          className={`flex justify-between py-3 px-3 md:py-0 md:px-0 ${
+          className={`flex py-3 px-3 md:py-0 md:px-0 ${
             isToggleMenuOpen
               ? 'md:bg-transparent md:border-none bg-white border-b border-gray-200'
               : ''
           }`}
         >
           <Link
-            className="flex items-center"
+            className="flex"
             href="/"
             onClick={() =>
               isToggleMenuOpen ? handleToggleMenuOnClick() : setIsDropdownOpen(updatedIsDropdownOpen as boolean[])

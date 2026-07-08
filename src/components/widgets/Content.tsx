@@ -22,10 +22,10 @@ const Content = ({
     containerClass={`${isAfterContent ? 'py-0 md:py-0 lg:py-0 pb-12 md:pb-16 lg:pb-20' : ''}`}
   >
     {header && <Headline header={header} titleClass="text-3xl sm:text-5xl text-[#1F0024]" />}
-    <div className="mx-auto max-w-7xl">
-      <div className={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
-        <div className="self-center md:basis-1/2">
-          {content && <div className="mb-8 lg:mb-12 text-lg text-[#1F0024]/80">{content}</div>}
+    <div className=" mx-auto max-w-7xl">
+      <div className={`md:flex ${isReversed ? 'md:flex-row-reverse md:gap-16' : ''}`}>
+        <div className={`self-center px-4 ${image ? 'md:basis-1/2' : 'w-full'}`}>
+          {content && <div className={`mb-8 lg:mb-12 text-lg text-[#1F0024]/80 ${image ? '' : 'text-center'}`}>{content}</div>}
           <ItemGrid
             items={items}
             columns={1}
@@ -37,7 +37,7 @@ const Content = ({
             iconClass="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-[#693371] text-gray-50 mr-4 rtl:mr-0 rtl:ml-4 mt-1 p-1"
           />
         </div>
-        <div aria-hidden="true" className="mt-10 md:mt-0 md:basis-1/2">
+        <div aria-hidden="true" className={`mt-10 md:mt-0 ${image ? 'md:basis-1/2' : ''}`}>
           {image && (
             <div className="relative m-auto max-w-4xl">
               <Image

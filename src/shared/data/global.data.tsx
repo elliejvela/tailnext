@@ -9,6 +9,10 @@ import {
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 import logoImg from "~/assets/images/MLU-full-logo-dark.png"
 
+export const studentAbstractSubmissionLink: string = "https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl";
+export const facultyAbstractSubmissionLink: string = "https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl";
+export const symposiumRegistrationLink: string = 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV';
+
 // Announcement data
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
@@ -35,15 +39,15 @@ export const headerData: HeaderProps = {
       links: [
         {
           label: 'Register for the Symposium',
-          href: 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV',
+          href: symposiumRegistrationLink,
         },
         {
-          label: 'Submit Student Abstract',
-          href: 'https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl',
+          label: 'Submit a Student Abstract',
+          href: '/students',
         },
         {
-          label: 'Submit Faculty Abstract',
-          href: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9UODQwN1gzRzEzTU9TWFFZWkNENDNTNDBDNC4u',
+          label: 'Submit a Faculty Abstract',
+          href: facultyAbstractSubmissionLink,
         },
       ],
     },

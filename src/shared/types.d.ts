@@ -288,6 +288,23 @@ type ContentProps = Widget & {
   isAfterContent?: boolean;
 };
 
+type keyInfoProps = Widget & {
+  items?: Array<{title: string, description: string}>,
+  link?: {
+    text: string,
+    url: string
+  }
+}
+
+type ContentVerboseProps = Widget & {
+  header?: Header;
+  content?: Array<string | JSXElement>;
+  items?: Array<Item>;
+  image?: Image;
+  isReversed?: boolean;
+  isAfterContent?: boolean;
+};
+
 type StepsProps = Widget & {
   header?: Header;
   items: Array<Item>;

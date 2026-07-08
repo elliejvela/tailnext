@@ -40,13 +40,6 @@ export default function Page() {
       <Features {...featuresHome} />
       <Pricing {...pricingHome} />
       <Testimonials {...testimonialsHome} />
-
-      {/* <Team {...teamHome} /> aka speakers
-      <FAQs2 {...faqs2Home} aka schedule />
-      <Contact {...contactHome} />
-      <Content {...contentHomeTwo} />
-      <Steps {...stepsHome} />
-      <CallToAction2 {...callToAction2Home} /> */}
     </>
   );
 }
