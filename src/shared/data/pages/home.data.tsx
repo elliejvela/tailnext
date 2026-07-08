@@ -1,20 +1,13 @@
 import {
   IconArrowDown,
-  IconArrowsRightLeft,
   IconBrandLinkedin,
-  IconBrandTailwind,
   IconBrandTwitter,
-  IconBulb,
-  IconCheck,
   IconChevronRight,
   IconClock,
-  IconComponents,
   IconDownload,
-  IconListCheck,
   IconMail,
   IconMapPin,
   IconPhoneCall,
-  IconRocket,
   IconSchool,
   IconTrophy,
   IconWorld
@@ -44,6 +37,7 @@ import mluGroupImg from '~/assets/images/mlu-group.jpg';
 import studentPosterImg from '~/assets/images/student-poster.jpg';
 import facultyGroupImg from '~/assets/images/faculty-group.jpg';
 import headerImg from '~/assets/images/MLU-full-logo-dark.png';
+import { facultyAbstractSubmissionLink, symposiumRegistrationLink } from '../global.data';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -183,7 +177,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Submit a Student Abstract',
-        href: 'https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl',
+        href: '/students',
       },
       hasRibbon: false,
     },
@@ -211,7 +205,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Submit a Faculty Abstract',
-        href: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9UODQwN1gzRzEzTU9TWFFZWkNENDNTNDBDNC4u',
+        href: facultyAbstractSubmissionLink,
       },
       hasRibbon: false,
     },
@@ -239,7 +233,7 @@ export const pricingHome: PricingProps = {
       callToAction: {
         targetBlank: true,
         text: 'Register Now',
-        href: 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV',
+        href: symposiumRegistrationLink,
       },
       hasRibbon: false,
     },

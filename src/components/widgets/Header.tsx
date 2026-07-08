@@ -99,7 +99,7 @@ const Header = () => {
                   {links && links.length ? (
                     <>
                       <button
-                        className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900"
+                        className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-lg text-[#1F0024] hover:text-[#1F0024]/70"
                         onClick={() => handleDropdownOnClick(index)}
                       >
                         {label}{' '}
@@ -114,7 +114,7 @@ const Header = () => {
                       <ul
                         className={`${
                           isDropdownOpen[index] ? 'block' : 'md:hidden'
-                        } rounded pl-4 font-medium drop-shadow-xl md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md md:border md:border-gray-200`}
+                        } rounded pl-4 font-medium drop-shadow-xl text-[#1F0024] md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md md:border md:border-gray-200`}
                       >
                         {links.map(({ label: label2, href: href2 }, index2) => (
                           <li key={`item-link-${index2}`}>
