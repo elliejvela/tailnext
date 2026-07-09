@@ -23,7 +23,7 @@ const Footer3 = () => {
             </div>
           </div>
           <div className="flex text-[#1F0024]">
-            This symposium celebrates the ongoing collaboration between Amazon's Machine Learning University and institutions of higher education, including HBCUs, community colleges, and universities nationwide, fostering innovation, research excellence, and creating pathways for the next generation of AI/ML professionals.
+            This symposium celebrates the ongoing collaboration between Amazon&apos;s Machine Learning University and institutions of higher education, including HBCUs, community colleges, and universities nationwide, fostering innovation, research excellence, and creating pathways for the next generation of AI/ML professionals.
           </div>
         </div>
       </div>

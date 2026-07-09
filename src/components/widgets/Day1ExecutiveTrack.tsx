@@ -127,8 +127,8 @@ export default function Day1ExecutiveTrack() {
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">2:15 PM – 3:00 PM</td>
                 <td className="px-4 py-3">
-                  Panel: "Bridging the Gap: Aligning the Institution to Meet
-                  Workforce Demand" — Moderator: Ms. Nancy Dalton
+                  Panel: &quot;Bridging the Gap: Aligning the Institution to Meet
+                  Workforce Demand&quot; — Moderator: Ms. Nancy Dalton
                 </td>
               </tr>
             </tbody>

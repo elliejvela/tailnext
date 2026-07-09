@@ -70,13 +70,13 @@ export default function Day1TechTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 11:45 AM</td>
                 <td className="px-4 py-3">
-                  "Cloud Migration Done Right: An Institutional Playbook" — Michael Widell
+                  &quot;Cloud Migration Done Right: An Institutional Playbook&quot; — Michael Widell
                 </td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">11:45 AM – 12:30 PM</td>
                 <td className="px-4 py-3">
-                  Hands-On Workshop: "Build a GenAI Campus Agent in 75 Minutes"
+                  Hands-On Workshop: &quot;Build a GenAI Campus Agent in 75 Minutes&quot;
                 </td>
               </tr>
             </tbody>
@@ -122,7 +122,7 @@ export default function Day1TechTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 3:00 PM</td>
                 <td className="px-4 py-3">
-                  "Workforce Pipelines: Training the Builders" — AWS Academy,
+                  &quot;Workforce Pipelines: Training the Builders&quot; — AWS Academy,
                   Cloud Credentials, Student Pathways
                 </td>
               </tr>
