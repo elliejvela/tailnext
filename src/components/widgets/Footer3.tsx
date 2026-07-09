@@ -9,14 +9,14 @@ const Footer3 = () => {
       <div className="mx-auto max-w-7xl p-4 sm:px-6">
         <div className="flex flex-col-reverse sm:flex-row gap-4">
           <div className="flex">
-              <div className="bg-[#1F0024] p-4 rounded-xl w-max">
+              <div className="flex bg-[#1F0024] p-4 rounded-xl sm:w-max w-full justify-center">
               <Image
                 className=""
                 src={awsBrandImg}
                 width={100}
                 height={100}
                 alt={'AWS logo'}
-                sizes="(max-width: 768px) 100vw, 432px"
+                sizes="(max-width: 768px) 432px"
                 placeholder="blur"
                 quality={50}
               />
