@@ -5,7 +5,6 @@ import { SITE } from '~/config.js';
 import Hero from '~/components/widgets/Hero';
 import Features from '~/components/widgets/Features';
 import Content from '~/components/widgets/Content';
-import Testimonials from '~/components/widgets/Testimonials';
 import Pricing from '~/components/widgets/Pricing';
 import ScheduleAtAGlance1 from '~/components/widgets/ScheduleAtAGlance1';
 import {

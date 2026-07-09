@@ -1,44 +1,23 @@
 import {
-  IconArrowDown,
-  IconBrandLinkedin,
-  IconBrandTwitter,
   IconChevronRight,
-  IconClock,
-  IconDownload,
-  IconMail,
   IconMapPin,
-  IconPhoneCall,
   IconSchool,
   IconTrophy,
   IconWorld
 } from '@tabler/icons-react';
 import {
-  CallToActionProps,
-  ContactProps,
   ContentProps,
-  FAQsProps,
   FeaturesProps,
   HeroProps,
   PricingProps,
-  SocialProofProps,
-  StepsProps,
   TabScheduleProps,
-  TeamProps,
-  TestimonialsProps,
 } from '../../types';
 import heroImg from '~/assets/images/hero.jpg';
-import nextJsLogo from '~/assets/images/nextjs-logo.png';
-import reactLogo from '~/assets/images/react-logo.png';
-import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
-import typescriptLogo from '~/assets/images/typescript-logo.png';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
-import gasImg from '~/assets/images/gas.jpg';
 import symposiumAudienceImg from '~/assets/images/symposium-audience.jpg';
-import mluGroupImg from '~/assets/images/mlu-group.jpg';
+import mluHomeImg from '~/assets/images/mlu-home-img.jpg';
 import studentPosterImg from '~/assets/images/student-poster.jpg';
-import facultyGroupImg from '~/assets/images/faculty-group.jpg';
-import headerImg from '~/assets/images/MLU-full-logo-dark.png';
-import { facultyAbstractSubmissionLink, symposiumRegistrationLink } from '../global.data';
+import facultyGroupImg from '~/assets/images/faculty-home-img.jpg';
+import {symposiumRegistrationLink } from '../global.data';
 import Day1StudentTrack from '~/components/widgets/Day1StudentTrack';
 import Day1FacultyTrack from '~/components/widgets/Day1FacultyTrack';
 import Day1TechTrack from '~/components/widgets/Day1TechTrack';
@@ -109,11 +88,11 @@ export const scheduleDayOneHome: TabScheduleProps = {
   header: {
     title: 'Day 1: September 21, 2026',
     subtitle: 
-        <p> 
+        <> 
           Howard University | Armour J. Blackburn Center <br /> 
           2397 6th St NW, Washington, DC 20059 <br /> 
           Distinguished Hosts: Jamila Hashil & Joe Briggs
-        </p>,
+        </>,
         
     position: 'center',
   },
@@ -211,7 +190,6 @@ export const tracksInfoHome: PricingProps = {
     title: 'Participate in the Symposium',
     subtitle:
       'Participation is open to invited students, faculty, educators, academic leaders, and collaborators across the AWS-MLU learning ecosystem.',
-    // tagline: 'Pricing',
   },
   prices: [
     {
@@ -275,7 +253,7 @@ export const tracksInfoHome: PricingProps = {
     },
     {
       image: {
-        src: mluGroupImg,
+        src: mluHomeImg,
         alt: 'Group photo of seven MLU employees smiling at camera',
       },
       title: 'Industry Professionals',
