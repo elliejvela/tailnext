@@ -5,7 +5,7 @@ import { SITE } from '~/config.js';
 import Providers from '~/components/atoms/Providers';
 import Header from '~/components/widgets/Header';
 import Announcement from '~/components/widgets/Announcement';
-import Footer2 from '~/components/widgets/Footer2';
+import Footer3 from '~/components/widgets/Footer3';
 
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
@@ -31,11 +31,11 @@ export default function RootLayout({ children }: LayoutProps) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="tracking-tight antialiased text-gray-900">
+      <body className="tracking-tight antialiased text-[#1F0024]">
         <Providers>
           <Header />
           <main>{children}</main>
-          {/* <Footer2 /> */}
+          <Footer3 />
         </Providers>
       </body>
     </html>
