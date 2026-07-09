@@ -1,5 +1,5 @@
 import { StaticImageData } from 'next/image';
-import { ReactElement } from 'react';
+import React, { ReactElement } from 'react';
 import type { TablerIcon } from "@tabler/icons-react"
 
 type Widget = {
@@ -216,6 +216,11 @@ type Tab = {
   items: Array<Item>;
 };
 
+type ScheduleTab = {
+  link?: Link;
+  schedule?: ReactElement;
+};
+
 type Dropdown = {
   options: Tab[];
   activeTab: number;
@@ -250,6 +255,13 @@ type FAQsProps = Widget & {
   items?: Array<Item>;
   columns?: number;
   tabs?: Array<Tab>;
+  callToAction?: CallToActionType;
+};
+
+type TabScheduleProps = Widget & {
+  header?: Header;
+  columns?: number;
+  tabs?: Array<ScheduleTab>;
   callToAction?: CallToActionType;
 };
 
@@ -298,7 +310,7 @@ type keyInfoProps = Widget & {
 
 type ContentVerboseProps = Widget & {
   header?: Header;
-  content?: Array<string | JSXElement>;
+  content?: Array<string | ReactElement>;
   items?: Array<Item>;
   image?: Image;
   isReversed?: boolean;
