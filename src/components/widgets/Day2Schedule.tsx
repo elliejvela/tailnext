@@ -1,6 +1,6 @@
 export default function Day2Schedule() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10 space-y-10 text-[#1F0024]">
+    <div className="max-w-5xl mx-auto px-4 py-5 space-y-10 text-[#1F0024]">
       {/* Amazon Immersion Day */}
       <div>
         <h3 className="text-lg font-semibold mb-3">Amazon Immersion Day</h3>
