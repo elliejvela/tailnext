@@ -1,7 +1,7 @@
 export default function Day1StudentTrack() {
   return (
     <div className="mx-auto space-y-10 text-[#1F0024]">
-      <p className="text-2xl font-bold">Students (Cloud Connect)</p>
+      <div className="text-2xl font-bold">Students (Cloud Connect)</div>
       {/* Opening Plenary */}
       <div>
         <h3 className="text-lg font-semibold mb-3">
@@ -18,7 +18,7 @@ export default function Day1StudentTrack() {
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">8:30 AM – 9:30 AM</td>
-                <td className="px-4 py-3">Registration, Check-In &amp; Breakfast</td>
+                <td className="px-4 py-3">Registration, Check-In & Breakfast</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">9:30 AM – 9:35 AM</td>
@@ -28,7 +28,7 @@ export default function Day1StudentTrack() {
                 <td className="px-4 py-3 whitespace-nowrap">9:35 AM – 9:40 AM</td>
                 <td className="px-4 py-3">
                   Welcome: Jerome Johnson II, Director of Professional Services –
-                  U.S. Federal, Aerospace &amp; Defense, AWS
+                  U.S. Federal, Aerospace & Defense, AWS
                 </td>
               </tr>
               <tr className="bg-gray-50">

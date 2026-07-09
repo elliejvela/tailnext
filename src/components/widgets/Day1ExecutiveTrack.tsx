@@ -1,7 +1,7 @@
 export default function Day1ExecutiveTrack() {
   return (
     <div className="mx-auto space-y-10 text-[#1F0024]">
-      <p className="text-2xl font-bold">Executives (Transformation Alliance)</p>
+      <div className="text-2xl font-bold">Executives (Transformation Alliance)</div>
 
       {/* Opening Plenary */}
       <div>
@@ -121,7 +121,7 @@ export default function Day1ExecutiveTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 2:15 PM</td>
                 <td className="px-4 py-3">
-                  Presentation: Dr. Yolanda Spiva-Watson &amp; Mr. David Bass
+                  Presentation: Dr. Yolanda Spiva-Watson & Mr. David Bass
                 </td>
               </tr>
               <tr className="bg-gray-50">

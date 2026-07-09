@@ -1,7 +1,7 @@
 export default function Day1FacultyTrack() {
   return (
     <div className="mx-auto space-y-10 text-[#1F0024]">
-      <p className="text-2xl font-bold">Faculty (Educators Consortium)</p>
+      <div className="text-2xl font-bold">Faculty (Educators Consortium)</div>
       {/* Opening Plenary */}
       <div>
         <h3 className="text-lg font-semibold mb-3">
@@ -18,7 +18,7 @@ export default function Day1FacultyTrack() {
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">8:30 AM – 9:30 AM</td>
-                <td className="px-4 py-3">Registration, Check-In &amp; Breakfast</td>
+                <td className="px-4 py-3">Registration, Check-In & Breakfast</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">9:30 AM – 9:35 AM</td>
@@ -28,7 +28,7 @@ export default function Day1FacultyTrack() {
                 <td className="px-4 py-3 whitespace-nowrap">9:35 AM – 9:40 AM</td>
                 <td className="px-4 py-3">
                   Welcome: Jerome Johnson II, Director of Professional Services –
-                  U.S. Federal, Aerospace &amp; Defense, AWS
+                  U.S. Federal, Aerospace & Defense, AWS
                 </td>
               </tr>
               <tr className="bg-gray-50">
@@ -70,7 +70,7 @@ export default function Day1FacultyTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 12:30 PM</td>
                 <td className="px-4 py-3">
-                  AWS-MLU &amp; Distributed Teaching Collaboratives — Session 1
+                  AWS-MLU & Distributed Teaching Collaboratives — Session 1
                 </td>
               </tr>
             </tbody>
@@ -116,7 +116,7 @@ export default function Day1FacultyTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 3:00 PM</td>
                 <td className="px-4 py-3">
-                  AWS-MLU &amp; Distributed Teaching Collaboratives — Session 2
+                  AWS-MLU & Distributed Teaching Collaboratives — Session 2
                 </td>
               </tr>
             </tbody>
