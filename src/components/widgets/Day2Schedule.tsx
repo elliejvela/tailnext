@@ -105,18 +105,13 @@ export default function Day2Schedule() {
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">12:30 PM – 1:00 PM</td>
-                <td className="px-4 py-3">Lunch Keynote</td>
+                <td className="px-4 py-3 whitespace-nowrap">12:30 PM – 1:30 PM</td>
+                <td className="px-4 py-3">Lunch</td>
                 <td className="px-4 py-3">
-                  Chris Willis, Director, Global Expansion, Amazon
+                  TBD
                 </td>
               </tr>
               <tr className="bg-gray-50">
-                <td className="px-4 py-3 whitespace-nowrap">1:00 PM – 1:30 PM</td>
-                <td className="px-4 py-3">Amazon Internships</td>
-                <td className="px-4 py-3">Michael Hoggard &amp; Antionna Sudor</td>
-              </tr>
-              <tr>
                 <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 1:35 PM</td>
                 <td className="px-4 py-3">Closing Remarks</td>
                 <td className="px-4 py-3">Amazon</td>
