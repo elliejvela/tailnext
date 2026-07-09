@@ -133,11 +133,11 @@ export const scheduleDayTwoHome = {
   header: {
     title: 'Day 2: September 22, 2026',
     subtitle: 
-        <p> 
+        <> 
           Amazon Headquarters-2 <br /> 
           1770 Crystal Drive, Arlington, VA 22202 <br /> 
           Distinguished Host: TBD
-        </p>,
+        </>,
   },
 };
 
