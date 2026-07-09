@@ -22,8 +22,8 @@ const ScheduleAtAGlance1 = ({ header, tabs, id, hasBackground = false }: TabSche
         <div className="grid w-full md:grid-cols-5 md:items-center md:gap-4">
           {width > 767 ? (
             <div className="block h-full sm:flex sm:items-center sm:justify-between md:mx-4 md:mt-10 md:block md:px-4">
-              <div className="flex h-fit justify-center sm:justify-start">
-                <ul>
+              <div className="flex h-fit min-w-max">
+                <ul className="flex flex-col w-full">
                   {(tabs as Tab[]).map((tab, index) => {
                     const onSelectTab = () => {
                       setActiveTab(index);
@@ -32,13 +32,14 @@ const ScheduleAtAGlance1 = ({ header, tabs, id, hasBackground = false }: TabSche
                     return (
                       <li
                         key={`tab-${index}`}
-                        className={`mb-5 flex cursor-pointer items-center text-[#1F0024] ${
-                          activeTab === index ? 'text-[#693371]' : ''
+                        className={`py-2 flex cursor-pointer justify-center text-[#1F0024] w-full rounded-md
+                          ${
+                          activeTab === index ? 'btn-primary text-white hover:border-[#1F0024] hover:bg-[#693371]' : ' hover:bg-gray-200'
                         }`}
                         tabIndex={0}
                         onClick={onSelectTab}
                       >
-                        <span className="text-xl hover:text-[#693371] hover:underline">{tab.link?.label}</span>
+                        <span className="text-xl">{tab.link?.label}</span>
                       </li>
                     );
                   })}
