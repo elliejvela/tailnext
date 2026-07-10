@@ -64,14 +64,14 @@ const Header = () => {
     >
       <div className="mx-auto w-full max-w-7xl md:flex md:justify-between md:py-3.5 md:px-4">
         <div
-          className={`flex justify-between py-3 px-3 md:py-0 md:px-0 ${
+          className={`flex py-3 px-3 md:py-0 md:px-0 ${
             isToggleMenuOpen
               ? 'md:bg-transparent md:border-none bg-white border-b border-gray-200'
               : ''
           }`}
         >
           <Link
-            className="flex items-center"
+            className="flex"
             href="/"
             onClick={() =>
               isToggleMenuOpen ? handleToggleMenuOnClick() : setIsDropdownOpen(updatedIsDropdownOpen as boolean[])
@@ -99,7 +99,7 @@ const Header = () => {
                   {links && links.length ? (
                     <>
                       <button
-                        className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900"
+                        className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-lg text-[#1F0024] hover:text-[#1F0024]/70"
                         onClick={() => handleDropdownOnClick(index)}
                       >
                         {label}{' '}
@@ -114,7 +114,7 @@ const Header = () => {
                       <ul
                         className={`${
                           isDropdownOpen[index] ? 'block' : 'md:hidden'
-                        } rounded pl-4 font-medium drop-shadow-xl md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md md:border md:border-gray-200`}
+                        } rounded pl-4 font-medium drop-shadow-xl text-[#1F0024] md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md md:border md:border-gray-200`}
                       >
                         {links.map(({ label: label2, href: href2 }, index2) => (
                           <li key={`item-link-${index2}`}>

@@ -4,7 +4,7 @@ const blurImgUrl = "~/assets/images/MLU-full-logo-dark.png"
 
 const Logo = () => (
 <Image
-    className="mx-auto w-1/2 bg-transparent"
+    className="w-1/2 bg-transparent"
     src={logoImg}
     width={800}
     height={800}

@@ -1,0 +1,65 @@
+import Image from 'next/image';
+import { IconCheck } from '@tabler/icons-react';
+
+import { ContentVerboseProps } from '~/shared/types';
+import Headline from '../common/Headline';
+import WidgetWrapper from '../common/WidgetWrapper';
+import ItemGrid from '../common/ItemGrid';
+
+const ContentVerbose = ({
+  header,
+  content,
+  items,
+  image,
+  isReversed,
+  isAfterContent,
+  id,
+  hasBackground = false,
+}: ContentVerboseProps) => (
+  <WidgetWrapper
+    id={id ? id : ''}
+    hasBackground={hasBackground}
+    containerClass={`${isAfterContent ? 'py-0 md:py-0 lg:py-0 pb-12 md:pb-16 lg:pb-20' : ''}`}
+  >
+    {header && <Headline header={header} titleClass="text-xl sm:text-5xl text-[#1F0024]" />}
+    <div className=" mx-auto max-w-7xl">
+      <div className={`md:flex ${isReversed ? 'md:flex-row-reverse md:gap-16' : ''}`}>
+        <div className={`self-center ${image ? 'md:basis-1/2' : 'w-full'}`}>
+          {content && <div className={`mb-8 lg:mb-12 text-lg text-[#1F0024]/80 ${image ? '' : 'text-center'}`}>{
+            content.map((item, index) => (
+             <div key={`conent-verbose-${index}`} className="my-8">{item}</div>
+            ))
+          }</div>}
+          {items && <ItemGrid
+            items={items}
+            columns={1}
+            defaultIcon={IconCheck}
+            containerClass="gap-4 md:gap-y-6"
+            panelClass="flex max-w-full"
+            titleClass="text-lg font-medium leading-6 text-[#1F0024] mt-1 mb-2"
+            descriptionClass="mt-1 text-gray-600"
+            iconClass="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-[#693371] text-gray-50 mr-4 rtl:mr-0 rtl:ml-4 mt-1 p-1"
+          />}
+        </div>
+          {image && (
+            <div aria-hidden="true" className={`mt-10 md:mt-0 ${image ? 'md:basis-1/2' : ''}`}>
+              <div className="relative m-auto max-w-4xl">
+                <Image
+                  className="mx-auto w-full rounded-lg shadow-lg bg-gray-400"
+                  src={image.src}
+                  width={828}
+                  height={828}
+                  alt={image.alt}
+                  sizes="(max-width: 768px) 100vw, 432px"
+                  placeholder="blur"
+                  quality={50}
+                />
+              </div>
+            </div>
+          )}
+      </div>
+    </div>
+  </WidgetWrapper>
+);
+
+export default ContentVerbose;
