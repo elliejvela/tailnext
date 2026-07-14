@@ -6,22 +6,20 @@ import placeHolderProfileImg from "~/assets/images/placeholerProfileImg.svg"
 const placeholderAltText = "profile image placeholder"
 
 const ProfileBio = ({ name, title, organization, bio, profileImg, nameClass, titleClass, orgClass, bioClass, bioFirst = false }: ProfileBioProps) => {
-  const profilePlaceholder = <div className="justify-center content-start w-full">
+  const profilePlaceholder = <div className="flex justify-center content-start w-full lg:w-1/2">
     <Image
-      className="mx-auto w-full"
+      className="w-40 h-40"
       src={placeHolderProfileImg}
-      width={250}
-      height={250}
       alt={placeholderAltText}
       quality={50}
     />
   </div>
   return (
-    <div className="flex flex-col md:content-start md:flex-row gap-2 px-2 w-full text-[#1F0024]">
-      <div className="flex w-full justify-center md:w-1/3">
+    <div className="flex flex-col lg:content-start lg:flex-row gap-2 px-2 w-full text-[#1F0024]">
+      <div className="flex w-full justify-center lg:w-1/2">
         {profileImg ? 
         <Image
-          className="flex mx-auto rounded-full aspect-square object-cover"
+          className="flex w-max rounded-full aspect-square object-cover"
           src={profileImg.src}
           width={250}
           height={250}
@@ -31,7 +29,7 @@ const ProfileBio = ({ name, title, organization, bio, profileImg, nameClass, tit
         : profilePlaceholder}
       </div>
       <div className={`flex w-full content-stretch px-2 gap-5 ${bioFirst ? 'flex-col-reverse justify-end' : 'flex-col'}`}>
-        <div className="flex flex-col">
+        <div className="flex flex-col text-center lg:text-start">
           <div className={twMerge(``, nameClass)}>
             <h2 className="text-5xl">{name}</h2>
           </div>
