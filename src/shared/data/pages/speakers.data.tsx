@@ -5,7 +5,6 @@ import {
 
 import heroImg from '~/assets/images/student-poster-hero.jpg';
 import {studentAbstractSubmissionLink} from "~/shared/data/global.data"
-
 import velaHeadshot from "~/assets/images/headshot-vela.jpg"
 
 // Hero data on Services page *******************
@@ -73,7 +72,11 @@ export const speakerInfo: speakerInfoProps = {
           <p>Beyond academia, Dr. Vela designs global technology programs that break down barriers and unlock opportunities for individuals entering and advancing in tech — ensuring equitable access to advanced learning across diverse communities.</p>
           <p>Dr. Vela is a NIFA Fellow with a PhD in Water Science and Management from New Mexico State University, an MBA, and a BS in Marketing. She bridges technical expertise with business acumen, advancing innovation through talent development and empowering student innovators to drive the next generation of technology breakthroughs from classroom to industry.</p>
         </div>
-      )
+      ),
+      profileImg:{
+        src: velaHeadshot,
+        alt: "A woman in professional attire"
+      }
     },
     {
       name: "Michael Widell",
