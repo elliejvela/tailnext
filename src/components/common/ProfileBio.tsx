@@ -41,7 +41,7 @@ const ProfileBio = ({ name, title, organization, bio, profileImg, nameClass, tit
           </div>}
         </div>
         {bio && <div className={twMerge(`flex`, bioClass)}>
-          <p className="">{bio}</p>
+          <div className="">{bio}</div>
         </div>}
       </div>
     </div>
