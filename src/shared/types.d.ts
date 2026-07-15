@@ -38,6 +38,7 @@ type ProfileBioProps = {
   organization?: string,
   bio?: string | ReactElement,
   profileImg?: Image,
+  descContainerClass?:string,
   nameClass?: string,
   titleClass?: string,
   orgClass?: string,

@@ -5,7 +5,7 @@ import { ProfileBioProps } from '~/shared/types';
 import placeHolderProfileImg from "~/assets/images/placeholerProfileImg.svg"
 const placeholderAltText = "profile image placeholder"
 
-const ProfileBio = ({ name, title, organization, bio, profileImg, nameClass, titleClass, orgClass, bioClass, bioFirst = false }: ProfileBioProps) => {
+const ProfileBio = ({ name, title, organization, bio, profileImg, descContainerClass, nameClass, titleClass, orgClass, bioClass, bioFirst = false }: ProfileBioProps) => {
   const profilePlaceholder = <div className="flex justify-center content-start w-full lg:w-1/2">
     <Image
       className="w-40 h-40"
@@ -29,7 +29,7 @@ const ProfileBio = ({ name, title, organization, bio, profileImg, nameClass, tit
         : profilePlaceholder}
       </div>
       <div className={`flex w-full content-stretch px-2 gap-5 ${bioFirst ? 'flex-col-reverse justify-end' : 'flex-col'}`}>
-        <div className="flex flex-col text-center lg:text-start">
+        <div className={twMerge(`flex flex-col text-center lg:text-start`, descContainerClass)}>
           <div className={twMerge(``, nameClass)}>
             <h2 className="text-5xl">{name}</h2>
           </div>

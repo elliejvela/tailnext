@@ -21,6 +21,7 @@ import Day2Schedule from '~/components/widgets/Day2Schedule';
 import ProfileBio from '~/components/common/ProfileBio';
 
 import velaHeadshot from "~/assets/images/headshot-vela.jpg"
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: SITE.title,
@@ -55,6 +56,12 @@ export default function Page() {
       <WidgetWrapper>
         <Headline {...heroQuoteHome.headline}/>
         <ProfileBio {...heroQuoteHome.profile}/>
+        <div className='w-full text-center pt-10'>
+          <Link href="/welcome">
+          <p className='text-4xl underline'>Read the Full Welcome Letter</p> 
+          </Link>
+        </div>
+        
       </WidgetWrapper>
       
       <Content {...contentHomeOne} />
