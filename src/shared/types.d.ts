@@ -36,7 +36,7 @@ type ProfileBioProps = {
   name: string, 
   title?: string,
   organization?: string,
-  bio?: string,
+  bio?: string | ReactElement,
   profileImg?: Image,
   nameClass?: string,
   titleClass?: string,
