@@ -10,7 +10,7 @@ import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 import logoImg from "~/assets/images/MLU-full-logo-dark.png"
 
 export const studentAbstractSubmissionLink: string = "https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl";
-export const facultyAbstractSubmissionLink: string = "https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl";
+export const facultyAbstractSubmissionLink: string = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9UODQwN1gzRzEzTU9TWFFZWkNENDNTNDBDNC4u";
 export const symposiumRegistrationLink: string = 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV';
 
 // Announcement data

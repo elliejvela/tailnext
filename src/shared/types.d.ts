@@ -32,6 +32,20 @@ type HeadlineProps = {
   subtitleClass?: string;
 };
 
+type ProfileBioProps = {
+  name: string, 
+  title?: string,
+  organization?: string,
+  bio?: string | ReactElement,
+  profileImg?: Image,
+  descContainerClass?:string,
+  nameClass?: string,
+  titleClass?: string,
+  orgClass?: string,
+  bioClass?: string,
+  bioFirst?: boolean,
+};
+
 type Icon = TablerIcon;
 
 type CallToActionType = {
@@ -306,6 +320,10 @@ type keyInfoProps = Widget & {
     text: string,
     url: string
   }
+}
+
+type speakerInfoProps = Widget & {
+  items: Array<ProfileBioProps>
 }
 
 type ContentVerboseProps = Widget & {
