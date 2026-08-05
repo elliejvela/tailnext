@@ -34,6 +34,10 @@ export const headerData: HeaderProps = {
   },
   links: [
     {
+      label: 'Speakers',
+      href: "/speakers",
+    },
+    {
       label: 'Registration',
       icon: IconChevronDown,
       links: [

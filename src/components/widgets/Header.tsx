@@ -133,7 +133,7 @@ const Header = () => {
                     </>
                   ) : (
                     <Link
-                      className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900"
+                      className="text-lg flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-[#1F0024] hover:text-[#1F0024]/70"
                       href={href as string}
                       onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleDropdownOnClick(index))}
                     >

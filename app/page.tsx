@@ -52,6 +52,7 @@ export default function Page() {
   return (
     <>
       <Hero {...heroHome} />
+
       {/* Quote from the Organizer */}
       <WidgetWrapper>
         <Headline {...heroQuoteHome.headline}/>
@@ -68,6 +69,7 @@ export default function Page() {
 
       {/* Conference Schedule At a Glance */}
       <h2 className='pt-12 md:pt-24 text-4xl md:text-5xl text-center text-[#1F0024] font-heading font-bold tracking-tight'>Schedule At A Glance</h2>
+      <Link href="/speakers"><p className="pt-4 text-xl text-center text-[#1F0024] underline">View All Speakers</p></Link>
       <ScheduleAtAGlance1 {...scheduleDayOneHome}/>
       <WidgetWrapper hasBackground={scheduleDayTwoHome.hasBackground}>
         <Headline header = {scheduleDayTwoHome.header} titleClass="text-3xl sm:text-4xl text-[#1F0024]"/>
