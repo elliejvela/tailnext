@@ -28,15 +28,15 @@ export const keyInfoStudentAbstracts: keyInfoProps = {
   items: [
     {
       title: "Submission Deadline:",
-      description: "July 31, 2026"
+      description: "August 15, 2026"
     },
+    // {
+    //   title: "Notification of Acceptance:",
+    //   description: "August 14, 2026"
+    // },
     {
       title: "Symposium Date:",
       description: "September 22, 2026"
-    },
-    {
-      title: "Notification of Acceptance:",
-      description: "August 14, 2026"
     },
     {
       title: "Location:",
