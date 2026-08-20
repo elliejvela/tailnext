@@ -20,8 +20,8 @@ import facultyGroupImg from '~/assets/images/faculty-home-img.jpg';
 import {symposiumRegistrationLink } from '../global.data';
 import Day1StudentTrack from '~/components/widgets/Day1StudentTrack';
 import Day1FacultyTrack from '~/components/widgets/Day1FacultyTrack';
-import Day1TechTrack from '~/components/widgets/Day1TechTrack';
 import Day1ExecutiveTrack from '~/components/widgets/Day1ExecutiveTrack';
+import { ReactElement } from 'react';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -110,23 +110,19 @@ export const scheduleDayOneHome: TabScheduleProps = {
         href: '/tab2',
       },
       schedule: <Day1FacultyTrack/>
-    },
+    }, 
     {
       link: {
-        label: 'Tech Leads',
-        href: '/tab3',
-      },
-      schedule: <Day1TechTrack/>
-    },
-    {
-      link: {
-        label: 'Executives',
+        // label: <p className="text-center">Executives &amp; <br/> CIOs</p>,
+        label: 'Executives & CIOs',
         href: '/tab4',
       },
       schedule: <Day1ExecutiveTrack/>
     },
   ],
 };
+
+
 
 export const scheduleDayTwoHome = {
   hasBackground: false,

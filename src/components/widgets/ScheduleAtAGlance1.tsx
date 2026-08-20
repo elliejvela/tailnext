@@ -19,9 +19,10 @@ const ScheduleAtAGlance1 = ({ header, tabs, id, hasBackground = false }: TabSche
     <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
       {header && <Headline header={header} titleClass="text-3xl sm:text-4xl text-[#1F0024]" />}
       <div className="flex items-stretch justify-center">
-        <div className="grid w-full md:grid-cols-5 md:items-center md:gap-4">
-          {width > 767 ? (
-            <div className="block h-full sm:flex sm:items-center sm:justify-between md:mx-4 md:mt-10 md:block md:px-4">
+        {/* <div className="grid w-full md:grid-cols-5 md:items-center md:gap-4"> */}
+        <div className="grid w-full">
+          {/* {width > 767 ? /*(
+            <div className="block h-full sm:flex sm:items-center sm:justify-between md:mt-10 md:block">
               <div className="flex h-fit min-w-max">
                 <ul className="flex flex-col w-full">
                   {(tabs as Tab[]).map((tab, index) => {
@@ -46,10 +47,11 @@ const ScheduleAtAGlance1 = ({ header, tabs, id, hasBackground = false }: TabSche
                 </ul>
               </div>
             </div>
-          ) : (
+          ) : ( */}
             <Dropdown options={tabs as Tab[]} activeTab={activeTab} onActiveTabSelected={activeTabSelectedHandler} />
-          )}
-          <div className="mt-4 h-fit md:col-span-4 md:mx-4 md:mt-0 md:px-4">
+          {/* )} */}
+          {/* <div className="mt-4 h-fit md:col-span-4 md:mx-4 md:mt-0 md:px-4"> */}
+          <div className="mt-4 h-fit">
             {(tabs as ScheduleTab[]).map((tab, index) => (
               <div key={`tab-${index}`} className="">
                 {activeTab === index && (
