@@ -113,7 +113,8 @@ export const scheduleDayOneHome: TabScheduleProps = {
     }, 
     {
       link: {
-        label: <p className="text-center">Executives &amp; <br/> CIOs</p>,
+        // label: <p className="text-center">Executives &amp; <br/> CIOs</p>,
+        label: 'Executives & CIOs',
         href: '/tab4',
       },
       schedule: <Day1ExecutiveTrack/>
