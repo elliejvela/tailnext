@@ -190,7 +190,7 @@ type Testimonial = {
 };
 
 type Link = {
-  label?: string | ReactElement;
+  label?: string;
   href?: string;
   ariaLabel?: string;
   icon?: Icon;
