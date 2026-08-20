@@ -69,12 +69,12 @@ export default function Page() {
 
       {/* Conference Schedule At a Glance */}
       <h2 className='pt-12 md:pt-24 text-4xl md:text-5xl text-center text-[#1F0024] font-heading font-bold tracking-tight'>Schedule At A Glance</h2>
-      <Link href="/speakers"><p className="pt-4 text-xl text-center text-[#1F0024] underline">View All Speakers</p></Link>
+      <Link href="/speakers"><p className="pt-4 text-xl text-center text-[#1F0024] underlinex">View All Speakers</p></Link>
       <ScheduleAtAGlance1 {...scheduleDayOneHome}/>
       <WidgetWrapper hasBackground={scheduleDayTwoHome.hasBackground}>
         <Headline header = {scheduleDayTwoHome.header} titleClass="text-3xl sm:text-4xl text-[#1F0024]"/>
         <Day2Schedule/>
-         <p className='text-lg md:text-xl text-center text-[#1F0024] font-light mb-4 tracking-tight'>schedule subject to change</p>
+         <p className='text-md text-center text-[#1F0024] font-light mb-4 tracking-tight'>Last updated 8/19/2026. Schedule subject to change.</p>
       </WidgetWrapper>
 
       <Features {...KeyExperiencesHome} />

@@ -21,7 +21,7 @@ const ScheduleAtAGlance1 = ({ header, tabs, id, hasBackground = false }: TabSche
       <div className="flex items-stretch justify-center">
         <div className="grid w-full md:grid-cols-5 md:items-center md:gap-4">
           {width > 767 ? (
-            <div className="block h-full sm:flex sm:items-center sm:justify-between md:mx-4 md:mt-10 md:block md:px-4">
+            <div className="block h-full sm:flex sm:items-center sm:justify-between md:mt-10 md:block">
               <div className="flex h-fit min-w-max">
                 <ul className="flex flex-col w-full">
                   {(tabs as Tab[]).map((tab, index) => {
