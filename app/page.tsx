@@ -59,7 +59,7 @@ export default function Page() {
         <ProfileBio {...heroQuoteHome.profile}/>
         <div className='w-full text-center pt-10'>
           <Link href="/welcome">
-          <p className='text-4xl underline'>Read the Full Welcome Letter</p> 
+            <p className='text-4xl underline'>Read the Full Welcome Letter</p> 
           </Link>
         </div>
         
