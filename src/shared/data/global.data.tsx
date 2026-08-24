@@ -38,6 +38,10 @@ export const headerData: HeaderProps = {
       href: "/speakers",
     },
     {
+      label: "Travel",
+      href:"/travel"
+    },
+    {
       label: 'Registration',
       icon: IconChevronDown,
       links: [
