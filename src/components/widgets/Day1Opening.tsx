@@ -19,7 +19,7 @@ export default function Day1Opening(){
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">9:30 AM – 9:35 AM</td>
-                <td className="px-4 py-3"><b>Welcome:</b> Wayne A.I. Fredrick, President, Howard University</td>
+                <td className="px-4 py-3"><b>Welcome:</b> Wayne A.I. Frederick, Interim President, Howard University</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">9:35 AM – 9:40 AM</td>

@@ -25,9 +25,14 @@ export default function Day1ExecutiveTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 11:30 AM</td>
                 <td className="px-4 py-3">
-                  <strong>AWS-MLU Regional Lead Institutions</strong> <br/>
-                  <b>Moderator:</b> Dr. Vita Pickrum<br/>
-                  <b>Panelists:</b> Dr. Calvin Briggs, Ms. Ayoka Samuels, Dr. Patrice Gilliam, Dr. Talitha Washington, Dr. Liz Largent<br/>
+                  <strong>Co-Creating the AI Talent Pipeline: Aligning Higher Education and Industry for the Future of Work</strong> <br/>
+                  <b>Moderator:</b> Ayoka Samuels, City Colleges of Chicago<br/>
+                  <br/>
+                  <b>Panelists:</b> <br/>
+                  Jeena Thomas, National Academies of Science; <br/>
+                  Dean Cherese Winstead, Delaware State University; <br/>
+                  Provost Clifton Myles, Talladega College; <br/>
+                  Donnie Bedney, Amazon eXperiences and Upskilling
                 </td>
               </tr>
               <tr className="bg-gray-50">

@@ -1,29 +1,40 @@
 import Image from 'next/image';
 import awsBrandImg from '~/assets/images/aws-logo.png'
+import howardLogoImg from "~/assets/images/howard-logo.png"
 
 const Footer3 = () => {
   // const { links, columns, socials, footNote } = footerData2;
 
   return (
     <div className='w-full'>
-      <div className="mx-auto max-w-7xl p-4 sm:px-6">
-        <div className="flex flex-col-reverse sm:flex-row gap-4">
-          <div className="flex">
-              <div className="flex bg-[#1F0024] p-4 rounded-xl sm:w-max w-full justify-center">
-              <Image
-                className=""
-                src={awsBrandImg}
-                width={100}
-                height={100}
-                alt={'AWS logo'}
-                sizes="(max-width: 768px) 432px"
-                placeholder="blur"
-                quality={50}
-              />
-            </div>
+      <div className="mx-auto max-w-7xl p-6 sm:px-6">
+        <div className="flex w-full h-max justify-center">
+            <Image
+              className=""
+              src={howardLogoImg}
+              width={228}
+              height={193}
+              alt={'Howard University logo'}
+              placeholder="blur"
+              quality={50}
+            />
           </div>
-          <div className="flex text-[#1F0024]">
-            This symposium celebrates the ongoing collaboration between Amazon&apos;s Machine Learning University and institutions of higher education, including HBCUs, community colleges, and universities nationwide, fostering innovation, research excellence, and creating pathways for the next generation of AI/ML professionals.
+
+        <div className="flex flex-col-reverse sm:flex-row gap-4 h-max">
+          <div className="flex shrink-0 bg-[#1F0024] p-4 rounded-xl sm:w-max h-max justify-center">
+            <Image
+              className=""
+              src={awsBrandImg}
+              width={100}
+              height={100}
+              alt={'AWS logo'}
+              sizes="(max-width: 768px) 432px"
+              placeholder="blur"
+              quality={50}
+            />
+          </div>
+          <div className="flex text-[#1F0024] text-justify">
+            <p>This symposium celebrates the ongoing collaboration between Amazon&apos;s Machine Learning University and institutions of higher education, including HBCUs, community colleges, and universities nationwide, fostering innovation, research excellence, and creating pathways for the next generation of AI/ML professionals.</p>
           </div>
         </div>
       </div>
