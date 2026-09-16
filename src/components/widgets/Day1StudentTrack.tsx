@@ -19,16 +19,29 @@ export default function Day1StudentTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 11:45 AM</td>
-                <td className="px-4 py-3">Early Career/Interns Panel</td>
+                <td className="px-4 py-3">
+                  <b>Senior Leader Panel</b><br/>
+                  <br/>
+                  <b>Moderator:</b> Lisa Chandler<br/>
+                  <b>Panelists:</b> Gerard Spivey, Alexis Robinson, Thaddeus Walker
+                </td>
+                <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">11:45 AM – 12:30 PM</td>
-                <td className="px-4 py-3">Senior Leader Panel</td>
+                <td className="px-4 py-3">
+                  <b>Career Panel</b><br/>
+                  <br/>
+                  <b>Moderator:</b> Karen Ohen<br/>
+                  <b>Panelists:</b> Beth Gomolka, Toechukwu Udegbue, Chris Hall, Annia Matthews
+                </td>
+                <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
               </tr>
             </tbody>
           </table>
@@ -44,12 +57,14 @@ export default function Day1StudentTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">12:30 PM – 1:30 PM</td>
                 <td className="px-4 py-3">Lunch</td>
+                <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
               </tr>
             </tbody>
           </table>
@@ -67,12 +82,14 @@ export default function Day1StudentTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 3:00 PM</td>
                 <td className="px-4 py-3">GenAI Hands-On Lab</td>
+                <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
               </tr>
             </tbody>
           </table>

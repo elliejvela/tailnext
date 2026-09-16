@@ -10,7 +10,7 @@ export default function Day1Opening(){
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
-                <th className="px-4 py-3 text-left font-semibold">Location</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">

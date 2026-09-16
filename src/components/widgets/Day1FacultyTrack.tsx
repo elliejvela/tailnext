@@ -20,15 +20,58 @@ export default function Day1FacultyTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 12:30 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">11:00 am – 11:10 am</td>
                 <td className="px-4 py-3">
-                  AWS-MLU & Distributed Teaching Collaboratives Consortium — Session 1
+                  <b><em>&quot;Distributed Teaching Collaboratives Consortium (DTCC) Overview&quot;</em></b>, Darnell Moore, Ph.D., DTCC Managing Director
                 </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
               </tr>
+              
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">11:10 am – 11:25 am</td>
+                <td className="px-4 py-3">
+                  <b><em>&quot;Reimagining Liberal Arts&quot; through AI Literacy</em></b>, Dr. Lisa Taylor, Director of Academic Technology and Distance Learning | Talladega College
+                </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
+              </tr>
+
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">11:25 am – 11:40 am</td>
+                <td className="px-4 py-3">
+                  <b><em>&quot;From Prompt to Program: Scaffolding AI Literacy from No-Code to Code&quot;</em></b>, Sara Mathew, Department Chair & Professor of Computer Science | Oklahoma City Community College
+                </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
+              </tr>
+
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">11:40 am – 11:55 am</td>
+                <td className="px-4 py-3">
+                  <b><em>&quot;Data Privacy and Cyber Hygiene Fundamentals in the Age of AI&quot;</em></b>, Latoya Stampley, Adjunct Professor | City Colleges of Chicago
+                </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
+              </tr>
+
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">11:55 am – 12:10 pm</td>
+                <td className="px-4 py-3">
+                  <b><em>&quot;From Problem-Based Engineering to Smart Prompting: Using AWS Quick to Support Doctoral Research and Critical AI Literacy&quot;</em></b>, Reshid Walker, Ed.D., Assistant Professor of Educational Leadership | Delaware State University
+                </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
+              </tr>
+
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">12:10 pm – 12:30 pm</td>
+                <td className="px-4 py-3">
+                  <b><em>&quot;From Investment to Impact: Understanding the AWS-MLU Program&quot;</em></b>, Kemal Atkins, Ed.D. | AGB Senior Consultant
+                </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
+              </tr>
+
             </tbody>
           </table>
         </div>
@@ -43,12 +86,14 @@ export default function Day1FacultyTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">12:30 PM – 1:30 PM</td>
                 <td className="px-4 py-3">Lunch</td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
               </tr>
             </tbody>
           </table>
@@ -66,14 +111,33 @@ export default function Day1FacultyTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 3:00 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 2:00 PM</td>
                 <td className="px-4 py-3">
-                  AWS-MLU & Distributed Teaching Collaboratives Consortoium — Session 2
+                  <b><em>Faculty Hands-on Workshop: AI Agents for Instructional Support</em></b>, <br/>
+                  Tariq Hook, Adjunct Professor, <br/>
+                  Reshid Walker, Ed.D., Asst. Prof. | Delaware State Univ., <br/>
+                  Edmund Ameyaw, Ph.D., Asst. Prof. | Howard University
                 </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">2:00 PM – 2:50 PM</td>
+                <td className="px-4 py-3">
+                  <b>Hands-on Faculty Workshop</b>
+                </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">2:50 PM – 3:00 PM</td>
+                <td className="px-4 py-3">
+                  <b>Workshop Recap & Sharing</b>
+                </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
               </tr>
             </tbody>
           </table>
