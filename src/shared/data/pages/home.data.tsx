@@ -18,9 +18,9 @@ import mluHomeImg from '~/assets/images/mlu-home-img.jpg';
 import studentPosterImg from '~/assets/images/student-poster.jpg';
 import facultyGroupImg from '~/assets/images/faculty-home-img.jpg';
 import {symposiumRegistrationLink } from '../global.data';
-import Day1StudentTrack from '~/components/widgets/Day1StudentTrack';
-import Day1FacultyTrack from '~/components/widgets/Day1FacultyTrack';
-import Day1ExecutiveTrack from '~/components/widgets/Day1ExecutiveTrack';
+import Day1StudentTrack from '~/components/custom/Day1StudentTrack';
+import Day1FacultyTrack from '~/components/custom/Day1FacultyTrack';
+import Day1ExecutiveTrack from '~/components/custom/Day1ExecutiveTrack';
 import { ReactElement } from 'react';
 
 // Hero data on Home page *******************

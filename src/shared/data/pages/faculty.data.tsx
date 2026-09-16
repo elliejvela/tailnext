@@ -7,6 +7,7 @@ import {
 import heroImg from '~/assets/images/faculty-poster-hero.jpg';
 import facultyPosterImg from '~/assets/images/faculty-poster-2.jpg'
 import {facultyAbstractSubmissionLink} from "~/shared/data/global.data"
+import contentPosterFAQs from '~/components/custom/PosterFAQs';
 
 // Hero data on Services page *******************
 export const heroStudentAbstracts: HeroProps = {
@@ -203,6 +204,14 @@ export const content4facultyAbstracts: ContentVerboseProps = {
   ],
   isReversed: false,
   isAfterContent: false,
+};
+
+export const content4FacultyAbstracts: ContentVerboseProps = {
+  id: 'contentFour-on-faculy-abstracts',
+  hasBackground: true,
+  isReversed: false,
+  isAfterContent: false,
+  ...contentPosterFAQs
 };
 
 

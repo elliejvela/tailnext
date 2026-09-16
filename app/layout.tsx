@@ -5,7 +5,7 @@ import { SITE } from '~/config.js';
 import Providers from '~/components/atoms/Providers';
 import Header from '~/components/widgets/Header';
 import Announcement from '~/components/widgets/Announcement';
-import Footer3 from '~/components/widgets/Footer3';
+import Footer3 from '~/components/custom/Footer3';
 
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';

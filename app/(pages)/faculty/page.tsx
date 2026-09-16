@@ -13,6 +13,7 @@ import {
   keyInfoStudentAbstracts
 } from '~/shared/data/pages/faculty.data';
 import { keyInfoProps } from '~/shared/types';
+import { content4FacultyAbstracts } from '~/shared/data/pages/faculty.data';
 
 export const metadata: Metadata = {
   title: 'students',
@@ -42,6 +43,7 @@ const Page = () => {
       <ContentVerbose {...content2FacultyAbstracts}/>
       <ContentVerbose {...content2StudentAbstracts}/>
       <ContentVerbose {...content3StudentAbstracts}/>
+      <ContentVerbose {...content4FacultyAbstracts}/>
     </>
   );
 };

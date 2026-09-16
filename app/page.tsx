@@ -6,7 +6,7 @@ import Hero from '~/components/widgets/Hero';
 import Features from '~/components/widgets/Features';
 import Content from '~/components/widgets/Content';
 import Pricing from '~/components/widgets/Pricing';
-import ScheduleAtAGlance1 from '~/components/widgets/ScheduleAtAGlance1';
+import ScheduleAtAGlance1 from '~/components/custom/ScheduleAtAGlance1';
 import {
   contentHomeOne,
   scheduleDayOneHome,
@@ -17,7 +17,7 @@ import {
 } from '~/shared/data/pages/home.data';
 import WidgetWrapper from '~/components/common/WidgetWrapper';
 import Headline from '~/components/common/Headline';
-import Day2Schedule from '~/components/widgets/Day2Schedule';
+import Day2Schedule from '~/components/custom/Day2Schedule';
 import ProfileBio from '~/components/common/ProfileBio';
 
 import velaHeadshot from "~/assets/images/headshot-vela.jpg"

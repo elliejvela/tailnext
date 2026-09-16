@@ -7,11 +7,13 @@ import WidgetWrapper from '~/components/common/WidgetWrapper';
 import {
   content2StudentAbstracts,
   content3StudentAbstracts,
+  content4StudentAbstracts,
   contentStudentAbstracts,
   heroStudentAbstracts,
   keyInfoStudentAbstracts
 } from '~/shared/data/pages/students.data';
 import { keyInfoProps } from '~/shared/types';
+import PosterFAQs from '~/components/custom/PosterFAQs';
 
 export const metadata: Metadata = {
   title: 'students',
@@ -40,6 +42,7 @@ const Page = () => {
       <ContentVerbose {...contentStudentAbstracts} />
       <ContentVerbose {...content2StudentAbstracts}/>
       <ContentVerbose {...content3StudentAbstracts}/>
+      <ContentVerbose {...content4StudentAbstracts}/>
     </>
   );
 };
