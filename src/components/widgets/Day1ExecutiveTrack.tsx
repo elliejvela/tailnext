@@ -19,6 +19,7 @@ export default function Day1ExecutiveTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
@@ -26,20 +27,23 @@ export default function Day1ExecutiveTrack() {
                 <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 11:30 AM</td>
                 <td className="px-4 py-3">
                   <strong>Co-Creating the AI Talent Pipeline: Aligning Higher Education and Industry for the Future of Work</strong> <br/>
-                  <b>Moderator:</b> Ayoka Samuels, City Colleges of Chicago<br/>
                   <br/>
+                  <b>Moderator:</b> Ayoka Samuels, City Colleges of Chicago<br/>
                   <b>Panelists:</b> <br/>
                   Jeena Thomas, National Academies of Science; <br/>
                   Dean Cherese Winstead, Delaware State University; <br/>
                   Provost Clifton Myles, Talladega College; <br/>
                   Donnie Bedney, Amazon eXperiences and Upskilling
                 </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Reading Lounge</td>
+
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">11:30 AM – 12:30 PM</td>
                 <td className="px-4 py-3">
-                  <em>Amazon Quick: Your AI Assistant</em>, Markelle Andrews, Quick Suite, Amazon Web Services
+                  <b><em>Amazon Quick: Your AI Assistant</em></b>, Markelle Andrews, Quick Suite, Amazon Web Services
                 </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Reading Lounge</td>
               </tr>
             </tbody>
           </table>
@@ -55,15 +59,14 @@ export default function Day1ExecutiveTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">12:45 PM – 1:30 PM</td>
-                <td className="px-4 py-3">
-                  <strong>Lunch Presentation:</strong><br/>
-                  <em>Cloud Migration Done Right: An Institutional Playbook</em>, Mike Widell, Oklahoma City Community College
-                </td>
+                <td className="px-4 py-3">Lunch</td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
               </tr>
             </tbody>
           </table>
@@ -81,21 +84,30 @@ export default function Day1ExecutiveTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 2:15 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 2:00 PM</td>
                 <td className="px-4 py-3">
-                  PartyRock
+                  <b><em>&quot;Cloud Migration Done Right: An Institutional Playbook&quot;</em></b>, Mike Widell, Oklahoma City Community College
                 </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Reading Lounge</td>
               </tr>
-              <tr className="bg-gray-50">
-                <td className="px-4 py-3 whitespace-nowrap">2:15 PM – 3:00 PM</td>
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">2:00 PM – 3:40 PM</td>
                 <td className="px-4 py-3">
-                  Dr. Yolanda Spiva-Watson, President, Complete College America & <br/>
-                  Mr. David Bass, Vice President Program Strategy, Association of Governing Boards
+                  <b><em>&quot;Navigating the AI Renaissance in Higher Education&quot;</em></b>, Dr. Yolanda Spiva-Watson, President, Complete College America
                 </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Reading Lounge</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">3:40 PM – 4:00 PM</td>
+                <td className="px-4 py-3">
+                  <b><em>&quot;From Investment to Impact: Understanding the AWS-MLU Program&quot;</em></b>, Kemal Atkins, Ed.D., AGB Senior Consultant
+                </td>
+                <td className="px-4 py-3 align-middle">Blackburn Center, Reading Lounge</td>
               </tr>
             </tbody>
           </table>
