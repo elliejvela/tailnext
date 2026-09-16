@@ -16,7 +16,7 @@ export default function Day2Schedule() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">9:30 AM – 9:40 AM</td>
                 <td className="px-4 py-3">
-                  Dr. Margie Vela, Strategic Academic Initiatives,
+                  <b>Welcome Remarks:</b> Dr. Margie Vela, Strategic Academic Initiatives,
                   Machine Learning University, AWS
                 </td>
               </tr>
@@ -36,24 +36,33 @@ export default function Day2Schedule() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
-                <th className="px-4 py-3 text-left font-semibold w-56">Speaker</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">9:40 AM – 9:50 AM</td>
-                <td className="px-4 py-3">Career Choice</td>
-                <td className="px-4 py-3">Yuanxia Ding</td>
+                <td className="px-4 py-3">
+                  <b>Career Choice:</b> Yuanxia Ding
+                </td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">9:50 AM – 10:20 AM</td>
-                <td className="px-4 py-3">AWS Developer Experience</td>
-                <td className="px-4 py-3">Lisa Bagley</td>
+                <td className="px-4 py-3">
+                  <b>AWS Developer Experience:</b> Lisa Bagley
+                  </td>
               </tr>
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">10:20 AM – 10:50 AM</td>
-                <td className="px-4 py-3">Amazon BEN-Tech in Higher Education</td>
-                <td className="px-4 py-3">Willie Mays &amp; Lisa Chandler</td>
+                <td className="px-4 py-3">
+                  <b>Amazon BEN-Tech in Higher Education:</b> Willie Mays &amp; Lisa Chandler
+                </td>
+              </tr>
+
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">10:50 AM – 10:55 AM</td>
+                <td className="px-4 py-3">
+                  <b>Poster Session Intro:</b> Joi Spears
+                </td>
               </tr>
             </tbody>
           </table>
@@ -62,7 +71,7 @@ export default function Day2Schedule() {
 
       {/* Poster Sessions */}
       <div>
-        <h3 className="text-lg font-semibold mb-3">Poster Sessions</h3>
+        <h3 className="text-lg font-semibold mb-3">Poster Sessions <small className="font-normal">(Hors d’evours provided)</small></h3>
         <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
           <table className="min-w-full divide-y divide-gray-200 text-sm">
             <thead className="bg-gray-100">
@@ -73,19 +82,19 @@ export default function Day2Schedule() {
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">10:50 AM – 11:10 AM</td>
+                <td className="px-4 py-3 whitespace-nowrap">10:55 AM – 11:15 AM</td>
                 <td className="px-4 py-3">Group 1</td>
               </tr>
               <tr className="bg-gray-50">
-                <td className="px-4 py-3 whitespace-nowrap">11:10 AM – 11:30 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">11:15 AM – 11:35 PM</td>
                 <td className="px-4 py-3">Group 2</td>
               </tr>
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">11:30 AM – 11:50 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">11:35 AM – 11:55 PM</td>
                 <td className="px-4 py-3">Group 3</td>
               </tr>
               <tr className="bg-gray-50">
-                <td className="px-4 py-3 whitespace-nowrap">11:50 AM – 12:10 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">11:55 AM – 12:15 PM</td>
                 <td className="px-4 py-3">Group 4</td>
               </tr>
             </tbody>
@@ -104,22 +113,16 @@ export default function Day2Schedule() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
-                <th className="px-4 py-3 text-left font-semibold w-56">Speaker</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">12:10 PM – 1:00 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">12:15 PM – 1:10 PM</td>
                 <td className="px-4 py-3">Lunch</td>
-                <td className="px-4 py-3">
-                  TBD
-                </td>
               </tr>
             </tbody>
           </table>
         </div>
-        {/* NOTE: Speakers are currently shifting around — Lunch Keynote and
-            Closing Remarks rows are placeholders pending confirmation. */}
       </div>
       <div>
         <h3 className="text-lg font-semibold mb-3">Afternoon</h3>
@@ -129,24 +132,27 @@ export default function Day2Schedule() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
-                <th className="px-4 py-3 text-left font-semibold w-56">Guide</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">1:00PM – 1:30 PM</td>
-                <td className="px-4 py-3">Amazon Internships</td>
-                <td className="px-4 py-3">Michael Hoggard & Antionna Sudor</td>
+                <td className="px-4 py-3 whitespace-nowrap">1:10PM – 1:40 PM</td>
+                <td className="px-4 py-3">
+                  <b>Amazon Internships:</b> Michael Hoggard & Antionna Sudor
+                </td>
               </tr>
               <tr className="bg-gray-50">
-                <td className="px-4 py-3 whitespace-nowrap">1:00 PM – 1:30 PM</td>
-                <td className="px-4 py-3">Faculty Recognition Ceremony: Faculty Fellows & Certified (AI Practitioner/Cloud Practitioner)</td>
+                <td className="px-4 py-3 whitespace-nowrap">1:40 PM – 2:05 PM</td>
+                <td className="px-4 py-3">
+                  <b>Faculty Recognition Ceremony:</b> Faculty Fellows & Certified (AI Practitioner/Cloud Practitioner)
+                </td>
                 <td/>
               </tr>
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 1:35 PM</td>
-                <td className="px-4 py-3">Closing Remarks</td>
-                <td className="px-4 py-3">Amazon</td>
+                <td className="px-4 py-3 whitespace-nowrap">2:05 PM – 2:10 PM</td>
+                <td className="px-4 py-3">
+                  <b>Closing Remarks:</b> Dr. Vita Pickrum, Senior Vice President and Executive Director of the Foundation, Oklahoma City Community College
+                </td>
               </tr>
             </tbody>
           </table>
@@ -162,24 +168,32 @@ export default function Day2Schedule() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Tour</th>
-                <th className="px-4 py-3 text-left font-semibold w-56">Guide</th>
+                <th className="px-4 py-3 text-left font-semibold w-56">Additional Info</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">1:35 PM – 3:00 PM</td>
-                <td className="px-4 py-3">Amazon AI Experience</td>
-                <td className="px-4 py-3">Precious Tate</td>
+                <td className="px-4 py-3 whitespace-nowrap">3:00 PM – 4:00 PM</td>
+                <td className="px-4 py-3">
+                  <b>AI Experience Center @ HQ2:</b> Precious Tate
+                </td>
+                <td className="px-4 py-3">
+                  30 min tour, <br/>
+                  20-30 participants/tour<br/>
+                  1 Coder Tour, 1 Non-Coder Tour
+                </td>
               </tr>
               <tr className="bg-gray-50">
-                <td className="px-4 py-3 whitespace-nowrap">1:35 PM – 3:00 PM</td>
-                <td className="px-4 py-3">AWS Skills Center</td>
-                <td className="px-4 py-3">Gerry Brooks</td>
+                <td className="px-4 py-3 whitespace-nowrap">2:10 PM – 3:30 PM</td>
+                <td className="px-4 py-3">
+                  <b>AWS Skills Center:</b> Gerry Brooks
+                  </td>
+                <td className="px-4 py-3"> Networking and Open Tour, unlimited number of participants </td>
               </tr>
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">1:35 PM – 3:00 PM</td>
-                <td className="px-4 py-3">Amazon Headquarters 2 (HQ2)</td>
-                <td className="px-4 py-3">TBD</td>
+                <td className="px-4 py-3 whitespace-nowrap">2:10 PM – 3:30 PM</td>
+                <td className="px-4 py-3"><b>HQ2:</b> Guided Tours</td>
+                <td></td>
               </tr>
             </tbody>
           </table>

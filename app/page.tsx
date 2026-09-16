@@ -74,7 +74,7 @@ export default function Page() {
       <WidgetWrapper hasBackground={scheduleDayTwoHome.hasBackground}>
         <Headline header = {scheduleDayTwoHome.header} titleClass="text-3xl sm:text-4xl text-[#1F0024]"/>
         <Day2Schedule/>
-         <p className='text-md text-center text-[#1F0024] font-light mb-4 tracking-tight'>Last updated 8/19/2026. Schedule subject to change.</p>
+         <p className='text-md text-center text-[#1F0024] font-light mb-4 tracking-tight'>Last updated 9/16/2026. Schedule subject to change.</p>
       </WidgetWrapper>
 
       <Features {...KeyExperiencesHome} />
