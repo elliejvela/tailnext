@@ -94,7 +94,7 @@ const Header = () => {
             className="flex w-full flex-col mt-2 mb-36 md:m-0 text-xl md:w-auto md:flex-row md:self-center md:pt-0 md:text-base"
           >
             {links &&
-              links.map(({ label, href, icon: Icon, links }, index) => (
+              links.map(({ label, href, icon: Icon, external, links }, index) => (
                 <li key={`item-link-${index}`} className={links?.length ? 'dropdown' : ''}>
                   {links && links.length ? (
                     <>
@@ -136,6 +136,9 @@ const Header = () => {
                       className="text-lg flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-[#1F0024] hover:text-[#1F0024]/70"
                       href={href as string}
                       onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleDropdownOnClick(index))}
+                      target={external ? "_blank" : ""}
+                      rel={external ? "noopener" : ""}
+                      
                     >
                       {label}
                     </Link>
