@@ -26,7 +26,7 @@ export default function Day1StudentTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 11:45 AM</td>
                 <td className="px-4 py-3">
-                  <b>Senior Leader Panel</b><br/>
+                  <b><em>Senior Leader Panel</em></b><br/>
                   <br/>
                   <b>Moderator:</b> Lisa Chandler<br/>
                   <b>Panelists:</b> Gerard Spivey, Alexis Robinson, Thaddeus Walker
@@ -36,7 +36,7 @@ export default function Day1StudentTrack() {
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">11:45 AM – 12:30 PM</td>
                 <td className="px-4 py-3">
-                  <b>Career Panel</b><br/>
+                  <b><em>Career Panel</em></b><br/>
                   <br/>
                   <b>Moderator:</b> Karen Ohen<br/>
                   <b>Panelists:</b> Beth Gomolka, Toechukwu Udegbue, Chris Hall, Annia Matthews
@@ -64,7 +64,7 @@ export default function Day1StudentTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">12:30 PM – 1:30 PM</td>
                 <td className="px-4 py-3">Lunch</td>
-                <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
+                <td className="px-4 py-3">Blackburn Center, Blackburn Ballroom</td>
               </tr>
             </tbody>
           </table>
@@ -88,7 +88,7 @@ export default function Day1StudentTrack() {
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 3:00 PM</td>
-                <td className="px-4 py-3">GenAI Hands-On Lab</td>
+                <td className="px-4 py-3"><b><em>GenAI Hands-On Lab:</em></b> Amazon Black Employee Network – Tech Chapter (BEN-Tech)</td>
                 <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
               </tr>
             </tbody>

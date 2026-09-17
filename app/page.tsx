@@ -68,7 +68,7 @@ export default function Page() {
       <Content {...contentHomeOne} />
 
       {/* Conference Schedule At a Glance */}
-      <h2 className='pt-12 md:pt-24 text-4xl md:text-5xl text-center text-[#1F0024] font-heading font-bold tracking-tight'>Schedule At A Glance</h2>
+      <h2 className='pt-12 md:pt-24 text-4xl md:text-5xl text-center text-[#1F0024] font-heading font-bold tracking-tight'>Agenda</h2>
       <Link href="/speakers"><p className="pt-4 text-xl text-center text-[#1F0024] underline">View All Speakers</p></Link>
       <ScheduleAtAGlance1 {...scheduleDayOneHome}/>
       <WidgetWrapper hasBackground={scheduleDayTwoHome.hasBackground}>

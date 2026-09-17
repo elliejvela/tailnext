@@ -168,7 +168,6 @@ export default function Day2Schedule() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Tour</th>
-                <th className="px-4 py-3 text-left font-semibold w-56">Additional Info</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
@@ -177,23 +176,16 @@ export default function Day2Schedule() {
                 <td className="px-4 py-3">
                   <b>AI Experience Center @ HQ2:</b> Precious Tate
                 </td>
-                <td className="px-4 py-3">
-                  30 min tour, <br/>
-                  20-30 participants/tour<br/>
-                  1 Coder Tour, 1 Non-Coder Tour
-                </td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="px-4 py-3 whitespace-nowrap">2:10 PM – 3:30 PM</td>
                 <td className="px-4 py-3">
                   <b>AWS Skills Center:</b> Gerry Brooks
                   </td>
-                <td className="px-4 py-3"> Networking and Open Tour, unlimited number of participants </td>
               </tr>
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">2:10 PM – 3:30 PM</td>
                 <td className="px-4 py-3"><b>HQ2:</b> Guided Tours</td>
-                <td></td>
               </tr>
             </tbody>
           </table>

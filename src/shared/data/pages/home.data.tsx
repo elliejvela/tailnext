@@ -132,7 +132,7 @@ export const scheduleDayTwoHome = {
         <> 
           Amazon Headquarters-2 <br /> 
           1770 Crystal Drive, Arlington, VA 22202 <br /> 
-          Distinguished Host: TBD
+          Distinguished Host: Jamila Hashil & Joe Briggs
         </>,
   },
 };

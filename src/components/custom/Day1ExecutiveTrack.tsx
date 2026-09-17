@@ -26,7 +26,7 @@ export default function Day1ExecutiveTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 11:30 AM</td>
                 <td className="px-4 py-3">
-                  <strong>Co-Creating the AI Talent Pipeline: Aligning Higher Education and Industry for the Future of Work</strong> <br/>
+                  <b><em>Co-Creating the AI Talent Pipeline: Aligning Higher Education and Industry for the Future of Work</em></b> <br/>
                   <br/>
                   <b>Moderator:</b> Ayoka Samuels, City Colleges of Chicago<br/>
                   <b>Panelists:</b> <br/>

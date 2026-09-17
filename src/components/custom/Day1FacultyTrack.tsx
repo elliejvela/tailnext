@@ -128,14 +128,14 @@ export default function Day1FacultyTrack() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">2:00 PM – 2:50 PM</td>
                 <td className="px-4 py-3">
-                  <b>Hands-on Faculty Workshop</b>
+                  <b><em>Hands-on Faculty Workshop</em></b>
                 </td>
                 <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">2:50 PM – 3:00 PM</td>
                 <td className="px-4 py-3">
-                  <b>Workshop Recap & Sharing</b>
+                  <b><em>Workshop Recap & Sharing</em></b>
                 </td>
                 <td className="px-4 py-3 align-middle">Blackburn Center, Blackburn Ballroom</td>
               </tr>

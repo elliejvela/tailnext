@@ -2,7 +2,7 @@ export default function Day1Opening(){
     return(
         <div>
         <h3 className="text-lg font-semibold mb-3">
-          Opening Plenary | Distinguished Hosts Jamila Hashil and Joe Briggs
+          Opening Plenary
         </h3>
         <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
           <table className="min-w-full divide-y divide-gray-200 text-sm">
