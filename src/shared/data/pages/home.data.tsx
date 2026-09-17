@@ -172,7 +172,7 @@ export const KeyExperiencesHome: FeaturesProps = {
     },
     {
       title: 'Build Amazon Campus Collaborations:',
-      description: ['–Amazon BEN-Tech Collaborations','- Amazon Web Services Builder Centers','- Amazon Career Choice',],
+      description: ['- Amazon BEN-Tech Collaborations','- Amazon Web Services Builder Centers','- Amazon Career Choice',],
       icon: IconWorld,
     },
   ],
