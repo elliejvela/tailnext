@@ -39,6 +39,10 @@ export const headerData: HeaderProps = {
       href: "/speakers",
     },
     {
+      label: 'Agenda',
+      href: "/#agenda"
+    },
+    {
       label: "Info",
       href: knowBeforeYouGoLink,
       external: true

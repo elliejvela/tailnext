@@ -96,14 +96,14 @@ export default function Day1ExecutiveTrack() {
                 <td className="px-4 py-3 align-middle">Blackburn Center, Reading Lounge</td>
               </tr>
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">2:00 PM – 3:40 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">2:00 PM – 2:40 PM</td>
                 <td className="px-4 py-3">
                   <b><em>&quot;Navigating the AI Renaissance in Higher Education&quot;</em></b>, Dr. Yolanda Spiva-Watson, President, Complete College America
                 </td>
                 <td className="px-4 py-3 align-middle">Blackburn Center, Reading Lounge</td>
               </tr>
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">3:40 PM – 4:00 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">2:40 PM – 3:00 PM</td>
                 <td className="px-4 py-3">
                   <b><em>&quot;From Investment to Impact: Understanding the AWS-MLU Program&quot;</em></b>, Kemal Atkins, Ed.D., AGB Senior Consultant
                 </td>

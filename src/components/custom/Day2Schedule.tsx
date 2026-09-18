@@ -3,22 +3,38 @@ export default function Day2Schedule() {
     <div className="py-5 space-y-10 text-[#1F0024]">
       {/* Amazon Immersion Day */}
       <div>
-        <h3 className="text-lg font-semibold mb-3">Welcome</h3>
+        <h3 className="text-lg font-semibold mb-3">Morning</h3>
         <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
           <table className="min-w-full divide-y divide-gray-200 text-sm">
             <thead className="bg-gray-100">
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">8:30 AM – 9:30 AM</td>
+                <td className="px-4 py-3">
+                  <em className="underline">Executives &amp; CIOs:</em> Registration and check-in
+                </td>
+                <td>WAS-16 Lobby</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 whitespace-nowrap">8:30 AM – 9:30 AM</td>
+                <td className="px-4 py-3">
+                  <em className="underline">Executives &amp; CIOs:</em> Breakfast
+                </td>
+                <td>Cafe, 13th Floor</td>
+              </tr>
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">9:30 AM – 9:40 AM</td>
                 <td className="px-4 py-3">
                   <b>Welcome Remarks:</b> Dr. Margie Vela, Strategic Academic Initiatives,
                   Machine Learning University, AWS
                 </td>
+                <td></td>
               </tr>
             </tbody>
           </table>
