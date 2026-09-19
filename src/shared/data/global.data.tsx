@@ -13,6 +13,7 @@ export const studentAbstractSubmissionLink: string = "https://forms.cloud.micros
 export const facultyAbstractSubmissionLink: string = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9UODQwN1gzRzEzTU9TWFFZWkNENDNTNDBDNC4u";
 export const symposiumRegistrationLink: string = 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV';
 export const knowBeforeYouGoLink: string = "https://drive.google.com/file/d/1wSyCoAPhtW-kGAkAGEMGRmr1LDP47_mr/view";
+export const howardTourGuideLink: string = "https://admission.howard.edu/sites/admission.howard.edu/files/2026-08/Self-Guided%20Tour%20Booklet.pdf"
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -44,8 +45,19 @@ export const headerData: HeaderProps = {
     },
     {
       label: "Info",
-      href: knowBeforeYouGoLink,
-      external: true
+      icon: IconChevronDown,
+      links: [
+        {
+          label: "Know Before You Go",
+          href: knowBeforeYouGoLink,
+          external: true
+        },
+        {
+          label: "Howard Self-Guided Tour Guide",
+          href: howardTourGuideLink,
+          external: true
+        }
+      ]
     },
     {
       label: 'Registration',
