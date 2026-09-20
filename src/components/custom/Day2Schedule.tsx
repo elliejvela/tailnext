@@ -17,14 +17,14 @@ export default function Day2Schedule() {
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">8:30 AM – 9:30 AM</td>
                 <td className="px-4 py-3">
-                  <em className="underline">Executives &amp; CIOs:</em> Registration and check-in
+                  Registration and check-in
                 </td>
                 <td>WAS-16 Lobby</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">8:30 AM – 9:30 AM</td>
                 <td className="px-4 py-3">
-                  <em className="underline">Executives &amp; CIOs:</em> Breakfast
+                  Breakfast
                 </td>
                 <td>Cafe, 13th Floor</td>
               </tr>
