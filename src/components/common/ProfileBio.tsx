@@ -19,10 +19,10 @@ const ProfileBio = ({ name, title, organization, bio, profileImg, descContainerC
       <div className="flex w-full justify-center lg:w-1/2">
         {profileImg ? 
         <Image
-          className="flex w-max rounded-full aspect-square object-cover"
+          className="flex rounded-full object-cover w-80 h-80"
           src={profileImg.src}
-          width={250}
-          height={250}
+          width={450}
+          height={450}
           alt={profileImg.alt}
           quality={50}
         />
