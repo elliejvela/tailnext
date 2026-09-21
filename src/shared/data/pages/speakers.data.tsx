@@ -19,6 +19,15 @@ import bagleyImg from "~/assets/images/speakers/bagley.png"
 import dingImg from "~/assets/images/speakers/ding.png"
 import chandlerImg from "~/assets/images/speakers/chandler.png"
 import maysImg from "~/assets/images/speakers/mays.png"
+import atkinsImg from "~/assets/images/speakers/atkins.png"
+import aryalImg from "~/assets/images/speakers/aryal.png"
+import andyImg from "~/assets/images/speakers/andy.png"
+import sadacharamImg from "~/assets/images/speakers/sadacharam.png"
+import spiveyImg from "~/assets/images/speakers/spivey.png"
+import robinsonImg from "~/assets/images/speakers/robinson.png"
+import walkerImg from "~/assets/images/speakers/walker.png"
+import gomolkaImg from "~/assets/images/speakers/gomolka.png"
+import udegbueImg from "~/assets/images/speakers/udegbue.png"
 
 // Hero data on Services page *******************
 export const heroStudentAbstracts: HeroProps = {
@@ -89,6 +98,24 @@ export const speakerInfo: speakerInfoProps = {
       }
     },
     {
+      name: "Dr. Saurav Keshari Aryal",
+      title: "Senior Research Scientist, Howard University’s Institute for Human-Centered Artificial Intelligence",
+      bio: "Dr. Saurav Keshari Aryal is a Senior Research Scientist at Howard University’s Institute for Human-Centered Artificial Intelligence, where he is affiliated with the Department of Electrical Engineering and Computer Science and directs the Artificial Intelligence for Positive Change (AI4PC) Lab. He earned both his B.S. in Systems and Computer Science and his Ph.D. in Computer Science from Howard University. His research advances applied artificial intelligence across a broad range of interdisciplinary domains, including affective computing, physiological signal processing, multilingual natural language understanding, trustworthy machine learning, and research cyberinfrastructure. Building on these foundations, his current work explores humanoid systems and physical AI, with a focus on how embodied agents perceive, reason, learn, and act reliably in dynamic real-world environment.",
+      profileImg: {
+        src: aryalImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Dr. Anietie Andy",
+      title: "Assistant Professor, Department of Electrical Engineering and Computer Science at Howard University",
+      bio: "Dr. Anietie Andy is an Assistant Professor in the Department of Electrical Engineering and Computer Science at Howard University. His research focuses on the intersection of natural language processing (NLP), machine learning, medicine, healthcare, and public health. His work involves developing advanced NLP and machine learning algorithms to: (a) predict patients’ risk for various health conditions using data from electronic health records, social media, and integrated multimodal data sources; and (b) gain insights into how individuals communicate about health and well-being on social media, including the social support needs they express through these platforms.",
+      profileImg:{
+        src: andyImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
       name: "Dr. Margie Vela",
       title: "Opening Remarks",
       bio: (
@@ -101,6 +128,83 @@ export const speakerInfo: speakerInfoProps = {
       profileImg:{
         src: velaHeadshot,
         alt: "A person in professional attire"
+      }
+    },
+    {
+      name: "Thansha Sadacharam",
+      bio:(
+        <div className="space-y-4">
+          <p>Thansha Sadacharam is a Senior Manager, Software Learning at Amazon, where she leads the Amazon Software Learning Experience team within Software Builder Experience. Her team&apos;s mission is to ensure builders onboard, learn skills to fuel innovation, and share their knowledge with others at Amazon.</p>
+          <p>Thansha has spent more than a decade at the intersection of people, learning, and technology. She began her career in talent and culture roles in Toronto before finding her calling in developer education, building the technical learning function at Peloton, and supporting research and development teams learn and grow at Shopify. Today at Amazon, she focuses on ensuring engineers have the knowledge they need to deliver value to their customers, bringing them trusted information the moment they need it, and building the tools and training that let them do their best work.</p>
+          <p>A graduate of Wilfrid Laurier University with an Honours B.A. in Political Science, she&apos;s passionate about how AI is reshaping who gets to build software and what&apos;s possible for the next generation of builders.</p>
+        </div>
+      ),
+      profileImg:{
+        src: sadacharamImg,
+        alt: "A professinal headshot"
+      }
+    },
+    {
+      name: "Gerard Spivey",
+      title: "Principal System Dev Engineer (Howard Alum)",
+      bio: (
+        <div className="space-y-4">
+          <p>Gerard Spivey is a Principal Engineer at Amazon Web Services with 14 years of experience designing, building, and operating distributed systems and infrastructure platforms. He is a founding engineer of AWS Mission Networking, a suite of managed connectivity services that enable customers to securely connect to AWS from anywhere. Before AWS, Gerard was Chief Engineer at BluVector, an AI-powered network detection and response cybersecurity company, where he helped scale the company from 10 people pre-revenue to eight-figure revenue and private-equity acquisition.</p>
+          <p>Gerard holds a B.S. in Electrical Engineering from Howard University and an M.S. in Computer Science from Capitol Technology University. A Howard alumnus, he has spent four years as a Technical Advisor for Amazon&apos;s Black Employee Network (BEN) Tech HBCU Capstone Program at Howard, mentoring student teams building real-world applications on AWS. He is a Software Engineering career coach at Management Leadership for Tomorrow&apos;s (MLT) Career Prep program, where he has supported the Software Engineering/Technology track for over five years and created a 10-week summer course, Building Full Stack LLM Services on AWS, reaching over 350 students across the last three summers (llm-aws.course.gspivey.com). In 2014, two years after graduating from Howard, Gerard received the Black Engineer of the Year Award (BEYA) STEM Conference &apos;Most Promising Engineer&apos; award. He writes about software development, AI, and developer tooling on his blog(gspivey.com) and YouTube channel (Gerard’s Curious Tech).</p>
+        </div>
+      ),
+      profileImg: {
+        src: spiveyImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Alexis Robinson",
+      title: "Principal Product Manager",
+      bio: "Alexis Appollonia Robinson is a Principal Product Manager for Amazon in the Washington, DC area and Adjunct Professor for California State, San Bernadino. For the past 15 years, she has served buyers of the cloud, retail sellers, policy makers, compliance organizations, engineering leaders, and security teams by developing and implementing security strategies, collaborating for thought leadership, solving problems, building products, and conducting cybersecurity, engineering, and financial assessments. She graduated with double Bachelors of Science degrees in Accounting and Information Systems from the Robert H. Smith School of Business at University of Maryland, College Park and an Executive Masters of Business Administration (MBA) from the Quantic Program. She has worked at several companies including CGI Federal and Ernst & Young before finding her to way Amazon. She is a Certified Information Systems Auditor (CISA) and a Project Management Professional (PMP).",
+      profileImg: {
+        src: robinsonImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Thaddeus Walker",
+      title: "Sr. Enterprise Support Manager, AWS",
+      bio: "Thaddeus Walker orchestrates mission-critical cloud transformations for National Security and Defense agencies, where his strategic leadership has strengthened the security posture of critical government systems. As Senior Enterprise Support Manager at Amazon Web Services, he combines deep expertise in Software Development and Cloud Computing with a nuanced understanding of federal compliance requirements to architect solutions that accelerate agencies' cloud adoption journeys. Drawing from over 20 years of industry experience across technology, operations, and software domains, Thaddeus specializes in translating complex technical problems into actionable implementation plans that deliver measurable outcomes for government stakeholders. A proud Tuskegee University computer science graduate, Thaddeus embodies the pioneering spirit of the Tuskegee Airmen, whose \"Lead from the front\" philosophy guides his approach to both team leadership and customer advocacy. This principle drives his commitment to hands-on problem solving and collaborative innovation when navigating the complex security and operational challenges of government cloud transformations.",
+      profileImg: {
+        src: walkerImg,
+        alt: "A professinal headshot"
+      }
+    },
+    {
+      name:"Beth Gomolka",
+      title: "Sr. Customer Solutions Manager",
+      bio: (
+        <div className='space-y-4'>
+          <p>Beth Gomolka is a Senior Customer Solutions Manager at Amazon Web Services, where she partners with ISV customers to drive cloud adoption and business outcomes across services.</p>
+          <p>Beth holds a Bachelor&apos;s degree in Systems Engineering from the University of Virginia and a Master&apos;s degree in Engineering from Linkoping University. Her engineering background gives her a strong foundation in problem solving and systems thinking, which she applies daily to help customers architect solutions and navigate complex cloud transformations. She holds multiple AWS certifications and is a featured speaker at both the Society of Women Engineers Conference and the Grace Hopper Celebration.</p>
+          <p>As a career panelist, Beth hopes to show students that technical foundations like engineering open doors across the industry, and that curiosity and a willingness to learn can take you further than any single credential.</p>
+        </div>
+      ),
+      profileImg: {
+        src: gomolkaImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Toechukwu Udegbue",
+      title: "",
+      bio: (
+        <div className='space-y-4'>
+          <p>Toechukwu Udegbue is a Project Manager with Amazon Web Services, where she leads retrofit and capacity projects within AWS&apos;s Data Center Acquisition & Construction organization—the team responsible for expanding and modernizing the physical infrastructure that powers the cloud, including the computing capacity behind AI and machine learning.</p>
+          <p>A mechanical engineer by training and a certified Project Management Professional (PMP), Toechukwu Udegbue earned her degree from the University of Texas at San Antonio and began her career at Dow Chemical in plant reliability and equipment integrity. She joined AWS in 2022 as a Mechanical Field Engineer before moving into project management, where she now leads complex infrastructure projects across live data center environments, coordinating engineering, construction, and vendor teams to modernize facilities while maintaining reliability and uptime.</p>
+          <p>Her experience gives her a practical perspective on the technology behind today&apos;s AI-driven world—grounded in the power, cooling, controls, capacity, and engineering required to make increasingly demanding computing possible at scale.</p>
+          <p>Toechukwu Udegbue is also passionate about STEM education, mentorship, and expanding access to engineering and technology careers. That commitment began during her university years through involvement with organizations including the National Society of Black Engineers and Society of Women Engineers and continues through her engagement with the next generation of technical talent.</p>
+        </div>
+      ),
+      profileImg: {
+        src: udegbueImg,
+        alt: "A person in professional atttire"
       }
     },
     {
@@ -157,6 +261,23 @@ export const speakerInfo: speakerInfoProps = {
         src: dingImg,
         alt: "A professional headshot"
       }
+    },
+    {
+      name: "Dr. Kemal Atkins",
+      title: "Senior Consultant, Association of Governing Boards of Universities and Colleges",
+      bio: (
+        <div className="space-y-4">
+          <p>Kemal Atkins, EdD is an accomplished higher education leader with more than 25 years of experience in institutional leadership and a deep expertise in enrollment management, student success, governance, strategic planning, and organizational development. As a senior consultant at the Association of Governing Boards of Universities and Colleges (AGB), Atkins works with institutions across the country to implement transformative practices in business model innovation, revenue growth, change management, and board development.</p>
+          <p>In his previous roles, Atkins served as vice president at both Keene State College and Delaware State University. He has also held leadership positions at East Carolina University, the University of North Carolina System Office, and Appalachian State University and was the founding director of ThinkCOLLEGE, a college access program of Communities In Schools, Charlotte-Mecklenburg. Throughout his career, Atkins has demonstrated an ability to build and lead high-performing teams, improve institutional effectiveness, and achieve equitable student outcomes. His strategic leadership has led to increased revenue through innovative enrollment strategies, fundraising, and entrepreneurship.</p>
+          <p>Atkins is also a passionate educator and currently serves as an adjunct associate professor of educational leadership at Delaware State University. His classroom work integrates his professional expertise and scholarly research, providing students with valuable insights into higher education leadership. Atkins has developed and implemented college-wide initiatives to promote and foster environments where students, faculty, and staff from all backgrounds can thrive.</p>
+          <p>Currently, Atkins serves on the board of directors of San Francisco Bay University, where he continues to lend his expertise to institutional governance and strategic direction.</p>
+          <p>Atkins holds a BA and MA in English from Appalachian State University and an EdD in educational leadership from Delaware State University. He is also an alumnus of several prestigious leadership development programs, including the American Academic Leadership Institute’s Executive Leadership Academy and Gavin de Becker & Associates’ Advanced Threat Assessment and Management Institute. In addition, Atkins holds an Executive Coaching Certification from the Center for Executive Coaching and is a fellow of the North Carolina Education Policy Fellowship Program (EPFP).</p>
+        </div>
+        ),
+        profileImg: {
+          src: atkinsImg,
+          alt: "A professional headshot"
+        }
     },
     {
       name: "Lisa Chandler",
