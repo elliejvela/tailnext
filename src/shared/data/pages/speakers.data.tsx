@@ -28,6 +28,14 @@ import robinsonImg from "~/assets/images/speakers/robinson.png"
 import walkerImg from "~/assets/images/speakers/walker.png"
 import gomolkaImg from "~/assets/images/speakers/gomolka.png"
 import udegbueImg from "~/assets/images/speakers/udegbue.png"
+import hallImg from "~/assets/images/speakers/hall.png"
+import matthewsImg from "~/assets/images/speakers/matthews.png"
+import mooreImg from "~/assets/images/speakers/moore.png"
+import pickrumImg from "~/assets/images/speakers/pickrum.png"
+import samuelsImg from "~/assets/images/speakers/samuels.png"
+import mylesImg from "~/assets/images/speakers/myles.png"
+import thomasImg from "~/assets/images/speakers/thomas.png"
+import winsteadImg from "~/assets/images/speakers/winstead.png"
 
 // Hero data on Services page *******************
 export const heroStudentAbstracts: HeroProps = {
@@ -208,6 +216,129 @@ export const speakerInfo: speakerInfoProps = {
       }
     },
     {
+      name: "Chris Hall",
+      title: "Solutions Architect",
+      bio: (
+        <div className='space-y-4'>
+          <p>Chris Hall is a Solutions Architect at Amazon Web Services (AWS), working within the Public Sector organization to help customers leverage cloud technologies to solve complex challenges.</p>
+          <p>A U.S. Air Force veteran with a background in Special Operations aviation, Christopher brings a perspective shaped by service, adaptability, and an unconventional journey into technology. His path to AWS began as a Cloud Computing student and included two AWS internships, first as a Cloud Support Associate and later as a Solutions Architect. Those experiences ultimately led to his current role as a full-time Solutions Architect.</p>
+          <p>Christopher is trilingual and holds multiple AWS certifications and a B.S. in Cloud Computing. His interests include cloud architecture, artificial intelligence, machine learning, and generative AI. As a career panelist, he hopes to encourage students to embrace unconventional paths, remain curious, and recognize the possibilities available within technology.</p>
+        </div>
+      ),
+      profileImg:{
+        src: hallImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Annia Matthews",
+      title: "Software Developer (Howard Alum)",
+      bio: (
+        <div className='space-y-4'>
+          <p>Annia Matthews is a Software Development Engineer at Amazon Prime Video, working within the PV Sports and Linear Tech org. She works with her team to deliver various discovery methods for thousands of live TV content options to millions of customers worldwide.</p>
+          <p>Throughout her short time at Amazon (joining in May 2025) she has led and contributed to initiatives including but not limited to experimentation with different layouts of the Live TV page, recording capabilities, operational improvements, and most recently the creation of a new sub-service to help power a cross-ranking algorithm for more accurate customer recommendations on the Home page.</p>
+          <p>Annia hails from the illustrious Howard University, where she graduated in May 2024 with a degree in Computer Science. As a career panelist, she hopes to provide practical advice to students about searching for internships/full-time roles, interview prep, and thriving (not just surviving) in any new role. She is passionate about sharing her perspectives with the BEN community and hopes to leave a lasting impact at Amazon beyond her technical contributions.</p>
+        </div>
+      ),
+      profileImg:{
+        src: matthewsImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Dr. Darnell Moore",
+      title: "Distributed Teaching Collaboratives Consortium, Managing Director",
+      bio: (
+        <div className='space-y-4'>
+          <p>Darnell J. Moore, Ph.D. is the Managing Director of the Distributed Teaching Collaboratives Consortium (DTCC) and founder of Janssense, a boutique technology consulting firm focused on technology strategy, program management, and product development in AI, robotics, and perception. In his role with DTCC, he helps lead strategy, partnerships, governance, and implementation for a national, faculty-focused consortium advancing collaborative teaching, open-source course development, and mentorship to expand pathways into AI and robotics. Supported by the Sloan Foundation, Amazon, and the Toyota Research Institute, DTCC brings together faculty from R1 universities, minority-serving institutions, teaching-focused colleges, and community colleges to scale high-quality robotics and AI education.</p>
+          <p>Dr. Moore brings a cross-sector perspective to grant development rooted in his experience building university–industry research partnerships, translating emerging technical needs into actionable programs, and aligning sponsors, faculty, and institutions around shared outcomes. Prior to DTCC, he led Academic Partnerships for Amazon Consumer Robotics, where he developed research collaborations with institutions including Georgia Tech, MIT, Stanford, the University of Texas at Austin, Carnegie Mellon University, and Howard University. His work supported advances in robotics and AI while strengthening programs that broaden participation in engineering and promote responsible technology development.</p>
+          <p>Before Amazon, Dr. Moore was a Distinguished Member of Technical Staff and manager of Texas Instruments’ Perception & Analytics Laboratory, where he led development of computer vision, perception, and analytics capabilities integrated into processors used in highly automated vehicles, autonomous robots, and unmanned aerial systems. He has also held technical roles at Xerox PARC, 3M, NCR, and Ford.</p>
+          <p>Dr. Moore holds nine patents, has authored numerous technical publications, and has chaired multiple technical conferences and symposia. He served on the University of Michigan Robotics Department Advisory Board and has held significant civic and nonprofit leadership roles, including president of The Dallas Assembly and board member of the AT&T Performing Arts Center. A Lifetime Member of the National Society of Black Engineers, he was named NSBE’s 2017 Distinguished Member of the Year.</p>
+          <p>A native of Chattanooga, Tennessee, Dr. Moore earned his bachelor’s degree in Electrical Engineering from Northwestern University and his master’s and doctoral degrees in Electrical Engineering from Georgia Tech.</p>
+        </div>
+      ),
+      profileImg:{
+        src: mooreImg,
+        alt: "A professinal headshot"
+      }
+    },
+    {
+      name: "Dr. Kemal Atkins",
+      title: "Senior Consultant, Association of Governing Boards of Universities and Colleges",
+      bio: (
+        <div className="space-y-4">
+          <p>Kemal Atkins, EdD is an accomplished higher education leader with more than 25 years of experience in institutional leadership and a deep expertise in enrollment management, student success, governance, strategic planning, and organizational development. As a senior consultant at the Association of Governing Boards of Universities and Colleges (AGB), Atkins works with institutions across the country to implement transformative practices in business model innovation, revenue growth, change management, and board development.</p>
+          <p>In his previous roles, Atkins served as vice president at both Keene State College and Delaware State University. He has also held leadership positions at East Carolina University, the University of North Carolina System Office, and Appalachian State University and was the founding director of ThinkCOLLEGE, a college access program of Communities In Schools, Charlotte-Mecklenburg. Throughout his career, Atkins has demonstrated an ability to build and lead high-performing teams, improve institutional effectiveness, and achieve equitable student outcomes. His strategic leadership has led to increased revenue through innovative enrollment strategies, fundraising, and entrepreneurship.</p>
+          <p>Atkins is also a passionate educator and currently serves as an adjunct associate professor of educational leadership at Delaware State University. His classroom work integrates his professional expertise and scholarly research, providing students with valuable insights into higher education leadership. Atkins has developed and implemented college-wide initiatives to promote and foster environments where students, faculty, and staff from all backgrounds can thrive.</p>
+          <p>Currently, Atkins serves on the board of directors of San Francisco Bay University, where he continues to lend his expertise to institutional governance and strategic direction.</p>
+          <p>Atkins holds a BA and MA in English from Appalachian State University and an EdD in educational leadership from Delaware State University. He is also an alumnus of several prestigious leadership development programs, including the American Academic Leadership Institute’s Executive Leadership Academy and Gavin de Becker & Associates’ Advanced Threat Assessment and Management Institute. In addition, Atkins holds an Executive Coaching Certification from the Center for Executive Coaching and is a fellow of the North Carolina Education Policy Fellowship Program (EPFP).</p>
+        </div>
+        ),
+        profileImg: {
+          src: atkinsImg,
+          alt: "A professional headshot"
+        }
+    },
+    {
+      name: "Dr. Vita Pickrum",
+      title: "Oklahoma City Community College, Senior Vice President",
+      bio: "Dr. Vita Pickrum joined the executive leadership team of Oklahoma City Community College (OCCC) as the Senior Vice President and Executive Director of the Foundation for OCCC. Reporting directly to the President, she provides expertise in strategic growth goals for the college. Working across divisions, she is responsible for the launch and development of the AWS National Center for AI, Machine Learning and Workforce Development at Oklahoma City Community College. This role includes development of regional alliances to engage universities and colleges in the work of the center. In addition, Dr. Pickrum is the founder of the HBCU Philanthropy Symposium in its 16th year of bringing together colleges to share best practices in sustainability of the schools and keeping their offerings relevant to the current times. She was a major factor in the recruitment and engagement of schools to embrace AWS MLU AI tools. She is also active in the AWS MLU Transformation Alliance. Dr. Pickrum earned a Doctorate in Educational Leadership and has a Master of Science and Bachelor of Science degrees. She has received numerous professional awards, has published, and is a sought-after speaker. Dr. Pickrum is a Certified Fund-Raising Executive (CFRE), as designated by CFRE International.",
+      profileImg: {
+        src: pickrumImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Ayoka Samuels",
+      title: "City Colleges of Chicago, Associate Vice Chancellor Tech Sector Strategy",
+      bio: (
+        <div className='space-y-4'>
+          <p>For over 25 years, Ayoka Noelle Mota Samuels has been a civic and community leader committed to the improved quality of life for people belonging to underestimated communities throughout metropolitan Chicago and the country. She has been dedicated to this work through various roles. As the Associate Vice Chancellor for Technology Sector Strategy, Ayoka currently serves as the lead for City Colleges of Chicago ensuring that Chicago residents have access to supports, services, and opportunities related to post-secondary computer technology education, tech upskilling/career development training, and quality job placement in the tech workforce ecosystem. Preceding her role with City Colleges, Ayoka was the Vice President of Bitwise Industries Chicago where she worked to establish the South Side as a competitive base for tech-talent. Before her time with Bitwise, Samuels was appointed by Governor J.B. Pritzker to serve as the Executive Director for the Illinois Commission on Volunteerism and Community Service. Prior to her tenure as a public servant with the state, for 15 years she served as the Director of the Gary Comer Youth Center in the Grand Crossing community.</p>
+          <p>Ayoka also served Chicagoland youth and their families at various organizations including the Boys & Girls Clubs of Chicago, Muntu Dance Theatre, and New Concept Development Center. She has been an advisor, trainer, and contributor for several organizations including After School Matters, UCAN, the Chicago Park District, Chicago Department of Support Services, and LISC. Ayoka serves on the board of the Leadership Fellows Association of Leadership Greater Chicago and is a former advisory board member for the Trauma Center at University of Chicago Medicine and the Seminar Co-op Bookstore. A native Chicagoan, she studied at the University of Illinois at Urbana-Champaign then later received a Master of Nonprofit Management degree from Spertus Institute of Jewish Studies.</p>
+        </div>
+      ),
+      profileImg: {
+        src: samuelsImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Dr. Clifton A. Myles",
+      title: "Talladega College, Provost and Executive Vice President",
+      bio: "Dr. A. Clifton Myles serves as Provost and Executive Vice President of Talladega College, providing strategic leadership for academic affairs, institutional effectiveness, workforce development, and organizational transformation. As the institution's Strategy and Transformation Officer, he plays a pivotal role in advancing innovation, strengthening academic excellence, and positioning the College to meet the evolving demands of higher education and the workforce. With more than thirty-three years of experience in education, Dr. Myles has distinguished himself as a transformational leader, serving in senior administrative and academic roles at colleges and universities across Alabama, Georgia, Kentucky, North Carolina, South Carolina, Texas, and Virginia. Throughout his career, he has championed student success, faculty development, strategic planning, accreditation, curriculum innovation, and institutional growth. Dr. Myles holds a Bachelor of Fine Arts from North Carolina Agricultural and Technical State University, a Master of Education from Virginia Commonwealth University, and a Doctor of Philosophy in Curriculum and Instruction from Virginia Polytechnic Institute and State University (Virginia Tech). His academic preparation and broad leadership experience have enabled him to bridge academic excellence, workforce readiness, and institutional transformation. Recognized for his expertise in workforce and educational development, Dr. Myles was recently appointed Alabama Workforce Coordinator for the Commission on Colleges and Universities Workforce Coordinator Network, an initiative funded by the Lumina Foundation. In this role, he collaborates with higher education leaders statewide to strengthen workforce pipelines, enhance economic mobility, and align academic programs with regional and national workforce needs. A committed advocate for educational access, innovation, and student achievement, Dr. Myles continues to lead efforts that expand opportunities, drive institutional success, and prepare graduates to thrive in an increasingly complex and competitive global environment.",
+      profileImg: {
+        src: mylesImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Jeena Thomas",
+      title: "National Academies of Science, Senior Program Officer",
+      bio: "Jeena Thomas has served at the National Academies of Sciences, Engineering, and Medicine since 2020. She is currently a Senior Program Officer directing the retaining, and advancing talent across academia and the workforce. Previously, she supported the Action Collaborative on Preventing Sexual Harassment in Higher Education as staff officer for the Prevention and Remediation Working Groups. Ms. Thomas has also led major National Academies convenings, including the 2024 Global Young Academy Annual General Meeting and International Conference and the 2022 Endless Frontier Symposium, which explored institutional transformations needed to address global challenges. Before joining the National Academies, she served as a Postbaccalaureate Fellow and later as an Operations Coordinator and Policy Liaison at the National Institute of Mental Health. She holds an M.S. in Physiology and Biophysics from Georgetown University and a B.A. in Biology from the University of Virginia.",
+      profileImg: {
+        src: thomasImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
+      name: "Dr. Cherese Winstead",
+      title: "Delaware State University, Dean",
+      bio: (
+        <div className='space-y-4'>
+          <p>Dr. Cherese Winstead obtained her Ph.D. in Chemistry from the Virginia Polytechnic Institute & State University (Virginia Tech). She is a Full Professor in the Department of Chemistry at Delaware State University (DSU) and currently serves as Dean of the College of Agriculture, Science & Technology (CAST). Prior to her deanship, she provided a decade of leadership as Chair of the Department of Chemistry at DSU.</p>
+          <p>Since joining the DSU faculty in Fall 2008, Dr. Winstead has made transformational strides in research, teaching, and service. She has successfully secured and managed more than $60.4 million in funding as Principal Investigator, co-PI, or key personnel on numerous large-scale projects. Her work reflects a strong inter-institutional and interdisciplinary approach, building collaborations with regional, national, and international agencies as well as non-profit organizations to integrate research with education.</p>
+          <p>In her research and scholarly activities, Dr. Winstead has engaged with community-based organizations, government agencies, and academic partners across disciplines. She is an active member of several professional organizations, serving on boards and committees that shape the future of science and education. Her affiliations include the Delaware Prosperity Partnership (DPP), Delaware NASA Space Grant, Nemours Delaware Comprehensive Sickle Cell Research Center, Materials Research Society, American Chemical Society, and the Delaware Science Coalition. Through these roles, she has contributed to advancing the practice, definition, and scholarship of both research and teaching.</p>
+          <p>Beyond academia, Dr. Winstead has demonstrated a lifelong commitment to service and STEM education access. She is Founder and President of the Young Chemists Society (YCS) and Helping Young People Excel (H.Y.P.E.), two nonprofit organizations that, for over two decades, have provided early science and mathematics education opportunities for underrepresented students in STEM.</p>
+          <p>Her national leadership was further recognized when she was appointed by President Joseph R. Biden to serve two terms on the National Medal of Science Committee. Established by Congress in 1959, the committee recommends recipients of the National Medal of Science—the highest honor awarded by the United States to scientists and engineers whose work has made exceptional contributions across the physical, biological,</p>
+            
+        </div>
+      ),
+      profileImg: {
+        src: winsteadImg,
+        alt: "A professional headshot"
+      }
+    },
+    {
       name: "Michael Widell",
       title: "Cloud Migration Done Right: An Institutional Playbook",
       bio: (
@@ -261,23 +392,6 @@ export const speakerInfo: speakerInfoProps = {
         src: dingImg,
         alt: "A professional headshot"
       }
-    },
-    {
-      name: "Dr. Kemal Atkins",
-      title: "Senior Consultant, Association of Governing Boards of Universities and Colleges",
-      bio: (
-        <div className="space-y-4">
-          <p>Kemal Atkins, EdD is an accomplished higher education leader with more than 25 years of experience in institutional leadership and a deep expertise in enrollment management, student success, governance, strategic planning, and organizational development. As a senior consultant at the Association of Governing Boards of Universities and Colleges (AGB), Atkins works with institutions across the country to implement transformative practices in business model innovation, revenue growth, change management, and board development.</p>
-          <p>In his previous roles, Atkins served as vice president at both Keene State College and Delaware State University. He has also held leadership positions at East Carolina University, the University of North Carolina System Office, and Appalachian State University and was the founding director of ThinkCOLLEGE, a college access program of Communities In Schools, Charlotte-Mecklenburg. Throughout his career, Atkins has demonstrated an ability to build and lead high-performing teams, improve institutional effectiveness, and achieve equitable student outcomes. His strategic leadership has led to increased revenue through innovative enrollment strategies, fundraising, and entrepreneurship.</p>
-          <p>Atkins is also a passionate educator and currently serves as an adjunct associate professor of educational leadership at Delaware State University. His classroom work integrates his professional expertise and scholarly research, providing students with valuable insights into higher education leadership. Atkins has developed and implemented college-wide initiatives to promote and foster environments where students, faculty, and staff from all backgrounds can thrive.</p>
-          <p>Currently, Atkins serves on the board of directors of San Francisco Bay University, where he continues to lend his expertise to institutional governance and strategic direction.</p>
-          <p>Atkins holds a BA and MA in English from Appalachian State University and an EdD in educational leadership from Delaware State University. He is also an alumnus of several prestigious leadership development programs, including the American Academic Leadership Institute’s Executive Leadership Academy and Gavin de Becker & Associates’ Advanced Threat Assessment and Management Institute. In addition, Atkins holds an Executive Coaching Certification from the Center for Executive Coaching and is a fellow of the North Carolina Education Policy Fellowship Program (EPFP).</p>
-        </div>
-        ),
-        profileImg: {
-          src: atkinsImg,
-          alt: "A professional headshot"
-        }
     },
     {
       name: "Lisa Chandler",
