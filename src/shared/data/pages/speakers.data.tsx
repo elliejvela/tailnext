@@ -36,6 +36,7 @@ import samuelsImg from "~/assets/images/speakers/samuels.png"
 import mylesImg from "~/assets/images/speakers/myles.png"
 import thomasImg from "~/assets/images/speakers/thomas.png"
 import winsteadImg from "~/assets/images/speakers/winstead.png"
+import spearsImg from "~/assets/images/speakers/spears.png"
 
 // Hero data on Services page *******************
 export const heroStudentAbstracts: HeroProps = {
@@ -136,6 +137,15 @@ export const speakerInfo: speakerInfoProps = {
       profileImg:{
         src: velaHeadshot,
         alt: "A person in professional attire"
+      }
+    },
+    {
+      name: "Joilyn Spears",
+      title:"",
+      bio:"",
+      profileImg:{
+        src: spearsImg,
+        alt: "A professional headshot"
       }
     },
     {
