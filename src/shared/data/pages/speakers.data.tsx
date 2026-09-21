@@ -92,7 +92,6 @@ export const speakerInfo: speakerInfoProps = {
     },
     {
       name: "Jerome Johnson II",
-      title: "Welcome Remarks",
       bio: (
         <div className="space-y-4">
           <p>Jerome Johnson II is a technology executive and AI strategist serving as Director of Professional Services for U.S. Federal, Defense, and Aerospace at Amazon Web Services (AWS). In this role, he leads a large-scale services organization focused on helping government and national security customers translate strategy into measurable mission outcomes through cloud, artificial intelligence, and emerging technologies.</p>
@@ -126,7 +125,6 @@ export const speakerInfo: speakerInfoProps = {
     },
     {
       name: "Dr. Margie Vela",
-      title: "Opening Remarks",
       bio: (
         <div className="space-y-4">
           <p>Dr. Margie Vela serves as Head of Strategic Academic Initiatives for Machine Learning University at Amazon Web Services, where she transforms AI and machine learning education across universities nationwide. She builds strategic partnerships that bring together teaching and research faculty from community colleges, HBCUs, and R1 research institutions — creating a collaborative community advancing AI teaching and innovation across higher education.</p>
@@ -211,7 +209,7 @@ export const speakerInfo: speakerInfoProps = {
     },
     {
       name: "Toechukwu Udegbue",
-      title: "",
+      title: "Data Center Project Manager",
       bio: (
         <div className='space-y-4'>
           <p>Toechukwu Udegbue is a Project Manager with Amazon Web Services, where she leads retrofit and capacity projects within AWS&apos;s Data Center Acquisition & Construction organization—the team responsible for expanding and modernizing the physical infrastructure that powers the cloud, including the computing capacity behind AI and machine learning.</p>
@@ -365,7 +363,6 @@ export const speakerInfo: speakerInfoProps = {
     },
     {
       name: "Markelle Andrews",
-      title: "Amazon Quick: Your AI Assistant",
       bio: "Markelle Andrews is a Senior Worldwide Specialist for Amazon Quick at Amazon Web Services, where she leads global go-to-market strategy across the Energy, Telecommunications, and Education verticals. With over six years at Amazon, Markelle drives technical sales, strategic partnerships, and AI-powered innovation — helping organizations transform how they work, analyze data, and make decisions. She is passionate about creating inclusive opportunities in technology and empowering the next generation of leaders through cloud-based solutions.",
       profileImg: {
         src: andrewsImg,
@@ -382,7 +379,6 @@ export const speakerInfo: speakerInfoProps = {
     },
     {
       name: "Lisa Bagley",
-      title: "AWS Developer Experience",
       bio: "Lisa Bagley leads Content, Education & Research for AWS Community Groups, where she shapes learning experiences for student and professional developer communities on the AWS Builder Center. Over 5+ years at AWS, she&aposs built education programs from K-12 through higher ed — designing curriculum, growing communities, and connecting industry with academia. Before AWS, she spent a decade in AP science education as a College Board Lead Instructor and national mentor. Lisa&aposs passionate about using generative AI to make workflows smarter and learning more accessible for everyone.",
       profileImg: {
         src: bagleyImg,
@@ -391,7 +387,6 @@ export const speakerInfo: speakerInfoProps = {
     },
     {
       name: "Yuanxia Ding",
-      title: "Career Choice",
       bio: (
         <div className="space-y-4">
           <p>Yuanxia Ding leads Amazon Career Choice for the Americas, providing education and job training that enables frontline employees to advance their careers, at Amazon or elsewhere. She oversees a wide range of educational programming, including high school diplomas/GEDs, associate’s and bachelor’s degrees, language learning programs, and curated upskilling programs aligned with employer needs. She leads a team that manages relationships with employer partners committed to hiring Career Choice graduates and over 600 educational provider partners, including 4-year institutions, community colleges, workforce development non-profits, start-up training providers, and corporate training companies all focused on helping Amazon employees gain skills to take their next career step.</p>
