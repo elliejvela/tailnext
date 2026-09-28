@@ -140,13 +140,14 @@ export const speakerInfo: speakerInfoProps = {
     {
       name: "Joilyn Spears",
       title:"AWS-MLU Operational Program Manager",
-      bio:(<div>
+      bio:(
+      <div className="space-y-4">
         <p>Joilyn Spears is the Operational Program Manager for Amazon Web Services Machine Learning University also supporting the Educators Enablement Program (AWS-MLU EEP), where she leads AI/ML professional development and digital transformation initiatives. She is passionate about making emerging technologies accessible and bringing people and teams together to turn ideas into meaningful impact.</p>
         <p>Joilyn began her Amazon career in Fulfillment Operations, leading teams, driving process improvements, and building a strong foundation in operational excellence, change management, and people leadership. She later transitioned to Amazon Web Services, where she leads strategic AI/ML initiatives, including generative AI education, technical bootcamps, Tech Talks, and large-scale AI events. Her work focuses on expanding access to AI education, accelerating technology adoption, and connecting cross-functional teams to deliver impactful learning experiences at scale.</p>
         <p>Joilyn is a proud graduate of Fort Valley State University, a Historically Black College and University (HBCU), and a member of Delta Sigma Theta Sorority, Incorporated. Her commitment to leadership, scholarship, service, and community continues to shape both her professional and personal work.</p>
         <p>Throughout her career, Joilyn has remained committed to developing people, creating opportunities, and building connections at the intersection of technology, education, leadership, and community.</p>
-      </div>),
-
+      </div>
+      ),
       profileImg:{
         src: spearsImg,
         alt: "A professional headshot"
