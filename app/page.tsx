@@ -6,7 +6,7 @@ import Hero from '~/components/widgets/Hero';
 import Features from '~/components/widgets/Features';
 import Content from '~/components/widgets/Content';
 import Pricing from '~/components/widgets/Pricing';
-import ScheduleAtAGlance1 from '~/components/widgets/ScheduleAtAGlance1';
+import ScheduleAtAGlance1 from '~/components/custom/ScheduleAtAGlance1';
 import {
   contentHomeOne,
   scheduleDayOneHome,
@@ -17,7 +17,7 @@ import {
 } from '~/shared/data/pages/home.data';
 import WidgetWrapper from '~/components/common/WidgetWrapper';
 import Headline from '~/components/common/Headline';
-import Day2Schedule from '~/components/widgets/Day2Schedule';
+import Day2Schedule from '~/components/custom/Day2Schedule';
 import ProfileBio from '~/components/common/ProfileBio';
 
 import velaHeadshot from "~/assets/images/headshot-vela.jpg"
@@ -68,13 +68,13 @@ export default function Page() {
       <Content {...contentHomeOne} />
 
       {/* Conference Schedule At a Glance */}
-      <h2 className='pt-12 md:pt-24 text-4xl md:text-5xl text-center text-[#1F0024] font-heading font-bold tracking-tight'>Schedule At A Glance</h2>
-      <Link href="/speakers"><p className="pt-4 text-xl text-center text-[#1F0024] underlinex">View All Speakers</p></Link>
+      <h2 id="agenda" className='pt-12 md:pt-24 text-4xl md:text-5xl text-center text-[#1F0024] font-heading font-bold tracking-tight'>Agenda</h2>
+      <Link href="/speakers"><p className="pt-4 text-xl text-center text-[#1F0024] underline">View All Speakers</p></Link>
       <ScheduleAtAGlance1 {...scheduleDayOneHome}/>
       <WidgetWrapper hasBackground={scheduleDayTwoHome.hasBackground}>
         <Headline header = {scheduleDayTwoHome.header} titleClass="text-3xl sm:text-4xl text-[#1F0024]"/>
         <Day2Schedule/>
-         <p className='text-md text-center text-[#1F0024] font-light mb-4 tracking-tight'>Last updated 8/19/2026. Schedule subject to change.</p>
+         <p className='text-md text-center text-[#1F0024] font-light mb-4 tracking-tight'>Last updated 9/16/2026. Schedule subject to change.</p>
       </WidgetWrapper>
 
       <Features {...KeyExperiencesHome} />

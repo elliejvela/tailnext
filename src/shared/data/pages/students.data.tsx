@@ -6,6 +6,7 @@ import {
 
 import heroImg from '~/assets/images/student-poster-hero.jpg';
 import {studentAbstractSubmissionLink} from "~/shared/data/global.data"
+import contentPosterFAQs from '~/components/custom/PosterFAQs';
 
 // Hero data on Services page *******************
 export const heroStudentAbstracts: HeroProps = {
@@ -111,3 +112,12 @@ export const content3StudentAbstracts: ContentVerboseProps = {
   isReversed: false,
   isAfterContent: false,
 };
+
+export const content4StudentAbstracts: ContentVerboseProps = {
+  id: 'contentFour-on-student-abstracts',
+  hasBackground: false,
+  isReversed: false,
+  isAfterContent: false,
+  ...contentPosterFAQs
+};
+

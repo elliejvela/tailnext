@@ -194,6 +194,7 @@ type Link = {
   href?: string;
   ariaLabel?: string;
   icon?: Icon;
+  external?: boolean;
 };
 
 type Price = {

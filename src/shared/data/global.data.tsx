@@ -12,6 +12,8 @@ import logoImg from "~/assets/images/MLU-full-logo-dark.png"
 export const studentAbstractSubmissionLink: string = "https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl";
 export const facultyAbstractSubmissionLink: string = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9UODQwN1gzRzEzTU9TWFFZWkNENDNTNDBDNC4u";
 export const symposiumRegistrationLink: string = 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV';
+export const knowBeforeYouGoLink: string = "2026_AWS_MLU_AI_Symposium_Know_Before_You_Go.pdf";
+export const howardTourGuideLink: string = "https://admission.howard.edu/sites/admission.howard.edu/files/2026-08/Self-Guided%20Tour%20Booklet.pdf"
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -38,8 +40,24 @@ export const headerData: HeaderProps = {
       href: "/speakers",
     },
     {
-      label: "Travel",
-      href:"/travel"
+      label: 'Agenda',
+      href: "/#agenda"
+    },
+    {
+      label: "Info",
+      icon: IconChevronDown,
+      links: [
+        {
+          label: "Know Before You Go",
+          href: knowBeforeYouGoLink,
+          external: true
+        },
+        {
+          label: "Howard Self-Guided Tour Guide",
+          href: howardTourGuideLink,
+          external: true
+        }
+      ]
     },
     {
       label: 'Registration',

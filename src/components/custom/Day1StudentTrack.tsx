@@ -1,13 +1,12 @@
 import Day1Closing from "./Day1Closing";
 import Day1Opening from "./Day1Opening";
 
-export default function Day1FacultyTrack() {
+export default function Day1StudentTrack() {
   return (
     <div className="mx-auto space-y-10 text-[#1F0024]">
-      <div className="text-2xl font-bold">Faculty (Educators Consortium)</div>
+      <div className="text-2xl font-bold">Students (Cloud Connect)</div>
 
       <Day1Opening/>
-      
 
       {/* Breakout Sessions - Morning */}
       <div>
@@ -20,14 +19,29 @@ export default function Day1FacultyTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
-                <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 12:30 PM</td>
+                <td className="px-4 py-3 whitespace-nowrap">11:00 AM – 11:45 AM</td>
                 <td className="px-4 py-3">
-                  AWS-MLU & Distributed Teaching Collaboratives Consortium — Session 1
+                  <b><em>Senior Leader Panel</em></b><br/>
+                  <br/>
+                  <b>Moderator:</b> Lisa Chandler<br/>
+                  <b>Panelists:</b> Gerard Spivey, Alexis Robinson, Thaddeus Walker
                 </td>
+                <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <td className="px-4 py-3 whitespace-nowrap">11:45 AM – 12:30 PM</td>
+                <td className="px-4 py-3">
+                  <b><em>Career Panel</em></b><br/>
+                  <br/>
+                  <b>Moderator:</b> Karen Ohen<br/>
+                  <b>Panelists:</b> Beth Gomolka, Toechukwu Udegbue, Chris Hall, Annia Matthews
+                </td>
+                <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
               </tr>
             </tbody>
           </table>
@@ -36,19 +50,21 @@ export default function Day1FacultyTrack() {
 
       {/* Lunch */}
       <div>
-        <h3 className="text-lg font-semibold mb-3">Lunch</h3>
+        <h3 className="text-lg font-semibold mb-3">Lunch </h3>
         <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
           <table className="min-w-full divide-y divide-gray-200 text-sm">
             <thead className="bg-gray-100">
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">12:30 PM – 1:30 PM</td>
                 <td className="px-4 py-3">Lunch</td>
+                <td className="px-4 py-3">Blackburn Center, Blackburn Ballroom</td>
               </tr>
             </tbody>
           </table>
@@ -66,14 +82,14 @@ export default function Day1FacultyTrack() {
               <tr>
                 <th className="px-4 py-3 text-left font-semibold w-48">Time</th>
                 <th className="px-4 py-3 text-left font-semibold">Session</th>
+                <th className="px-4 py-3 text-left font-semibold w-48">Location</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 whitespace-nowrap">1:30 PM – 3:00 PM</td>
-                <td className="px-4 py-3">
-                  AWS-MLU & Distributed Teaching Collaboratives Consortoium — Session 2
-                </td>
+                <td className="px-4 py-3"><b><em>GenAI Hands-On Lab:</em></b> Amazon Black Employee Network – Tech Chapter (BEN-Tech)</td>
+                <td className="px-4 py-3">Blackburn Center, Gallery Lounge</td>
               </tr>
             </tbody>
           </table>
@@ -81,6 +97,7 @@ export default function Day1FacultyTrack() {
       </div>
 
     <Day1Closing/>
+    
     </div>
   );
 }
