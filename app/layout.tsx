@@ -4,11 +4,11 @@ import { SITE } from '~/config.js';
 
 import Providers from '~/components/atoms/Providers';
 import Header from '~/components/widgets/Header';
-import Announcement from '~/components/widgets/Announcement';
 import Footer3 from '~/components/custom/Footer3';
 
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
+import RegClosedAnnouncement from '~/components/custom/RegClosedAnnouncement';
 
 const customFont = CustomFont({ subsets: ['latin'], variable: '--font-custom' });
 
@@ -34,6 +34,7 @@ export default function RootLayout({ children }: LayoutProps) {
       <body className="tracking-tight antialiased text-[#1F0024]">
         <Providers>
           <Header />
+          <RegClosedAnnouncement />
           <main>{children}</main>
           <Footer3 />
         </Providers>

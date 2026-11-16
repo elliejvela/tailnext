@@ -19,12 +19,8 @@ export const howardTourGuideLink: string = "https://admission.howard.edu/sites/a
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
-    text: 'This template is made with Next.js 14 using the new App Router »',
-    href: 'https://nextjs.org/blog/next-14',
-  },
-  callToAction2: {
-    text: 'Follow @onWidget on Twitter',
-    href: 'https://twitter.com/intent/user?screen_name=onwidget',
+    text: 'The Fall 2026 Symposium has concluded. Check later for more info on future AWS-MLU events.',
+    href: '/registration-closed',
   },
 };
 
