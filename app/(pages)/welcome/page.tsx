@@ -3,7 +3,6 @@ import Headline from "~/components/common/Headline";
 import ProfileBio from "~/components/common/ProfileBio";
 
 import velaHeadshot from "~/assets/images/headshot-vela.jpg"
-import Background from "~/components/common/Background";
 
 
 export default function Page() {

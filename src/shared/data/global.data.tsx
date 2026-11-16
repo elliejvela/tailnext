@@ -9,9 +9,9 @@ import {
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 import logoImg from "~/assets/images/MLU-full-logo-dark.png"
 
-export const studentAbstractSubmissionLink: string = "https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl";
-export const facultyAbstractSubmissionLink: string = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9UODQwN1gzRzEzTU9TWFFZWkNENDNTNDBDNC4u";
-export const symposiumRegistrationLink: string = 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV';
+export const studentAbstractSubmissionLink: string = "/registration-closed"; //"https://forms.cloud.microsoft/pages/responsepage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9URDMzOUYwUlc0NUhXVFJYVjNYWjAyN0dDTS4u&route=shorturl";
+export const facultyAbstractSubmissionLink: string = "/registration-closed"; //"https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=OpeucH3jSEmtxd4dP6row37VTpyqw1NEnO7K31VyHD9UODQwN1gzRzEzTU9TWFFZWkNENDNTNDBDNC4u";
+export const symposiumRegistrationLink: string = "/registration-closed"; //'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV';
 export const knowBeforeYouGoLink: string = "2026_AWS_MLU_AI_Symposium_Know_Before_You_Go.pdf";
 export const howardTourGuideLink: string = "https://admission.howard.edu/sites/admission.howard.edu/files/2026-08/Self-Guided%20Tour%20Booklet.pdf"
 

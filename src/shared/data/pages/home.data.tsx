@@ -21,7 +21,6 @@ import {symposiumRegistrationLink } from '../global.data';
 import Day1StudentTrack from '~/components/custom/Day1StudentTrack';
 import Day1FacultyTrack from '~/components/custom/Day1FacultyTrack';
 import Day1ExecutiveTrack from '~/components/custom/Day1ExecutiveTrack';
-import { ReactElement } from 'react';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
@@ -38,7 +37,7 @@ export const heroHome: HeroProps = {
   ),
   callToAction: {
     text: 'Register Now',
-    href: 'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV',
+    href: symposiumRegistrationLink,
     targetBlank: true,
   },
   image: {
