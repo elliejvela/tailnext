@@ -14,13 +14,14 @@ export const facultyAbstractSubmissionLink: string = "/registration-closed"; //"
 export const symposiumRegistrationLink: string = "/registration-closed"; //'https://app.brazenconnect.com/a/asp-sdengineering/e/9bRrV';
 export const knowBeforeYouGoLink: string = "2026_AWS_MLU_AI_Symposium_Know_Before_You_Go.pdf";
 export const howardTourGuideLink: string = "https://admission.howard.edu/sites/admission.howard.edu/files/2026-08/Self-Guided%20Tour%20Booklet.pdf"
+export const winterSymposiumLink: string = "https://www.mlu-ai-symposium.com";
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
     text: 'The Fall 2026 Symposium has concluded. For information about the Winter 2027 Symposium, click here.',
-    href: 'www.mlu-ai-symposium.com',
+    href: winterSymposiumLink,
   },
 };
 
