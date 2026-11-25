@@ -19,8 +19,8 @@ export const howardTourGuideLink: string = "https://admission.howard.edu/sites/a
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
-    text: 'The Fall 2026 Symposium has concluded. Check later for more info on future AWS-MLU events.',
-    href: '/registration-closed',
+    text: 'The Fall 2026 Symposium has concluded. For information about the Winter 2027 Symposium, click here.',
+    href: 'www.mlu-ai-symposium.com',
   },
 };
 
